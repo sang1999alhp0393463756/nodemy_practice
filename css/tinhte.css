@@ -195,6 +195,356 @@ margin: 0;
 /*  */
 /* body */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div, p, a{
+    border: 1px solid black;
+} */
+
+div .inset-shadow{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    background-color: #ccc;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+.taiAppTinhte .inset-shadow , .listCongDong .inset-shadow{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.questionandnews .inset-shadow{
+    border-radius: 25px;
+}
+div .ias{
+    border: 0px;
+}
+.block1 .quangcao{
+    height: 200px;
+}
+.block1 .quangcao .img{
+    height: 150px;
+    background-image: url("../../VsCode/Picture/quangcaoTinhTe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    top: 50%;
+}
+.block2 .col-6{
+    height: 650px;
+    background-color: rgb(25, 36, 51);
+}
+.block2 .col-6 .anhSanpham1{
+    height: 500px;
+    background-image: url("../../VsCode/Picture/Tinhte2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+}
+.block2 .col-6 .contentSanpham1{
+    height: 150px;
+    font-size: 30px;
+}
+.block2 .col-6 .anhSanpham2{
+    height: 500px;
+    background-image: url("../../VsCode/Picture/Tinhte4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+}
+.block2 .col-6 .contentSanpham2{
+    height: 150px;
+    font-size: 30px;
+}
+.block2 .col-4 .anhSanpham1{
+    height: 300px;
+    background-image: url("../../VsCode/Picture/Tinhte1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+} 
+.block2 .col-4 .contentSanpham1{
+    height: 100px;
+    font-size: 20px;
+}
+.block2 .col-4 .anhSanpham2{
+    height: 300px;
+    background-image: url("../../VsCode/Picture/Tinhte3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+} 
+.block2 .col-4 .contentSanpham2{
+    height: 100px;
+    font-size: 20px;
+}
+.block2 .col-4 .anhSanpham3{
+    height: 300px;
+    background-image: url("../../VsCode/Picture/Tinhte5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+} 
+.block2 .col-4 .contentSanpham3{
+    height: 100px;
+    font-size: 20px;
+}
+.block2 .sanpham .col-4{
+    height: 400px;
+    background-color: rgb(25, 36, 51);
+}
+.block2 .ias{
+    background-image: url("../../VsCode/Picture/bgTinhte1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.block2 .icon{
+    height: 200px;
+}
+.block2 .seeFeed{
+    height: 100px;
+}
+.block2 .iconAndseeFeed{
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.block2 .ias .iconAndseeFeed .icons{
+    height: 65%;
+}
+.block2 .ias .iconAndseeFeed .contenticons{
+    height: 30%;
+}
+
+.block2 .ias .iconAndseeFeed .icons5{
+    width: 60%;
+}
+.block2 .ias .iconAndseeFeed .iconsSub{
+    width: 20%;
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .span2{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+    width: 20%;
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh1{
+    background-image: url("../../VsCode/Picture/icon1TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh2{
+    background-image: url("../../VsCode/Picture/icon2TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh3{
+    background-image: url("../../VsCode/Picture/icon3TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh4{
+    background-image: url("../../VsCode/Picture/icon4TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh5{
+    background-image: url("../../VsCode/Picture/icon5TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .contenticons .icons5 .span2{
+    height: 100%;
+    width: 20%;
+    font-size: 30px;
+}
+.block2 .ias .iconAndseeFeed .seeFeed .seeF{
+    border-top: 1px solid wheat;
+}
+
+.block2 .has{
+    min-height: 300px;
+}
+.block2 .hashtagandseemore{
+    height: 100px;
+}
+.block2 .scroll{
+    min-height: 300px;
+}
+.block2 .scrollingconmain{
+    position: relative;
+    background-image: linear-gradient(45deg, rgb(245, 78, 162), rgb(255, 118, 118));;
+    border-radius: 20px;
+}
+.block2 .scrollingconmain .personmore .iconplus{
+    height: 30%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: hsla(180,100%,55%,1);
+    float: right;
+}
+.block2 .scrollingconmain .personmore .iconplus i{
+    font-size: 23px;
+}
+
+.block2 .scrollingconmain .avataricontext{
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.block2 .scrollingconmain .personmore{  
+    background-image: url("../../VsCode/Picture/avatarTinhTe.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(188,100%,42%,1);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+.block2{
+    min-height: 1130px;
+}
+.block2 .qal{
+    min-height: 2000px;
+}
+.block2 .listscroll{
+    min-height: 200px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.scrollimg .scrollingcon{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    margin-top:2px
+}
+.block2 .listscroll .scrollimg{
+    margin: -1px;
+    margin-right: 10px;
+    display: inline-block;
+    height: 100%;
+    width: 150px;
+}
+.block2 .quangcaoandList{
+    min-height: 2000px;
+}
+.block2 .quangcaoandList .quangcao{
+    height: 300px;
+}
+.block2 .quangcaoandList .quangcao .contentquangcao{
+    border-radius: 30px;
+}
+
+.block2 .quangcaoandList .quangcao .contentquangcao .commercial{
+    background-image: url("../../VsCode/Picture/quangcaoTinhTe2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.block2 .quangcaoandList .khoangtrong{
+    height: 30px;
+}
+.block2 .quangcaoandList .listCongDong{
+    min-height: 500px;
+}
+.block2 .contentQuestion{
+    height: 240px;
+}
+.block2 .contentradius{
+    border-radius: 30px;
+}
+.block2 .news p{
+    height: 30px;
+}
+.block2 .contentNew{
+    min-height: 2000px;
+    border-radius: 30px;
+}
+.block2 .contentCongdong{
+    height: 70px;
+}
+.block2 .sanphamCongdong{
+    min-height: 500px;
+}
+.block2 .sanphamCDcon{
+    min-height: 450px;
+}
+.block2 .buttonSeemore{
+    height: 60px;
+}
+.block2  .seemore button{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+
+.block2 .buttonSeemore .daddya a{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 5px;
+    height: 60px;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.block2 .contentchau{
+    height: 130px;
+}
+.block2 .contentchau .col-10{
+    border-radius: 20px;
+}
+.block2 .contentchau .col-10 .title{
+    height: 30%;
+}
+.block2 .contentchau .col-10 .content{
+    height: 70%;
+}
+
+.block2 .contentchau .avatar{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.block2 .textAtaiappTinhTe{
+    font-size: 25px;
+}
+.block2 .textPtaiappTinhTe{
+    font-size: 20px;
+}
+.block2 .taiAppTinhte .imgquangcao{
+    height: 200px;
+}
+.block2 .linkgoogleandappstore{
+    height: 80px;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 25px ;
+    border-bottom-left-radius: 25px ;
+}
+.block2 .linkgoogle{
+    width: 150px;
+    height: 50px;
+}
+.block2 .linkappstore{
+    width: 150px;
+    height: 50px;
+}
+.block2 .thongkeAnhEmtichcuc{
+    height: 800px;
+}
+.block2 .thongkeAnhEmtichcuc a{
+    font-size: 25px;
+}
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc{
+    height: 350px;
+}
 
 
 
