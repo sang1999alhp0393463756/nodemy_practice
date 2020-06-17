@@ -1,4 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ html{
+     font-size: 0.625rem;
+ }
 /* header */
+
+
+.search{
+    height: 80px;
+    font-size: 1.4rem;
+}
+
+.menu{
+    background-color: #000033;
+    font-size: 1.4rem;
+}
+.header{
+    background-color: #272742;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+.search p{
+    margin: 0 10px;
+    color: white;
+    font-weight: bold;
+}
+input{
+    width: 50%;
+    height: 35px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 0;
+    background-color: #000033;
+    color:#d6d6c2;
+    padding: 15px;
+}
+input:focus{
+    outline: none;
+    }
+    button{
+        background-color: #000033;
+        border: 0;
+        height: 35px;
+        color: #d6d6c2;
+        padding-right: 5px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    button:focus{
+        outline: none;
+    }
+    .col-11{
+        padding: 0;
+    }
+    ul{
+        display: flex;
+        padding: 0;
+        margin: 0;
+     
+    }
+    ul li {
+        margin: 0 10px;
+        list-style: none;
+        display: flex;
+    }
+    .jxs{
+        height: 50px;
+    }
+ 
+    ul li::before{
+        content: "\f006";
+        font-family: "FontAwesome";
+        font-weight: 500;
+        margin: 0 5px 0 0;
+    }
+.cauhinh{
+    border-right: 1px solid darkslateblue;
+}
+.mobile{
+
+width: 100%;
+}
+.header-mobile{
+    background-color: #000033;
+}
+
+.header-mobile .row{
+margin: 0;
+}
+.header-mobile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+.test{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.header-mobile p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.header-mobile .col-4{
+    padding: 0;
+}
+.header-mobile button{
+    display: flex;
+    color: white;
+    }
+
+
+    .sidepanel  {
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color:#000033;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        border-bottom: 1px solid steelblue;
+      }
+      
+      .sidepanel a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        border-bottom: 0;
+      }
+      
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+      
+      .openbtn:hover {
+        background-color:#444;
+      }
+      .collapse{
+          border-bottom: 1px solid steelblue;
+      }
+
+      @media only screen and (max-width: 1200px) {
+        .menu{
+            font-size: 0.8rem;
+        }
+        .search{
+            font-size: 0.8rem;
+        }
+       }
+
 
 
 
