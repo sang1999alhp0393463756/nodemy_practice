@@ -46,17 +46,17 @@ div .ias{
     height: 200px;
 }
 .block1 .quangcao .img{
-    height: 150px;
+    height: 100%;
     background-image: url("../img/quangcaoTinhTe.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
     top: 50%;
 }
-.block2 .col-6{
+/* .block2 .col-6{
     height: 650px;
     background-color: rgb(25, 36, 51);
-}
+} */
 .block2 .col-6 .anhSanpham1{
     height: 500px;
     background-image: url("../img/Tinhte2.jpg");
@@ -117,10 +117,10 @@ div .ias{
     height: 100px;
     font-size: 20px;
 }
-.block2 .sanpham .col-4{
+/* .block2 .sanpham .col-4{
     height: 400px;
     background-color: rgb(25, 36, 51);
-}
+} */
 .block2 .ias{
     background-image: url("../img/bgTinhte1.png");
     background-position: center center;
@@ -247,6 +247,8 @@ div .ias{
     display: inline-block;
     height: 100%;
     width: 150px;
+    border-radius: 20px;
+    background-color: aqua;
 }
 .block2 .quangcaoandList{
     min-height: 2000px;
@@ -363,6 +365,94 @@ div .ias{
 }
 .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc{
     height: 350px;
+}
+@media screen and (min-width: 700px){
+    .block2 .sanpham .col-4{
+        height: 400px;
+        background-color: rgb(25, 36, 51);
+    }
+    .block2 .col-6{
+        height: 650px;
+        background-color: rgb(25, 36, 51);
+    }
+    .block2 .sanphamto1{
+        display: block;
+    }
+    .block2 .sanphamnho1{
+        display: block;
+    }
+    .block2 .sanphamto2{
+        display: none;
+    }
+    .block2 .sanphamnho2{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+    .block2 .sanphamto2 .col-12 .anhSanpham1{
+        background-image: url("../img/Tinhte2.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .block2 .sanphamnho2 .col-12 .anhSanpham1{
+        background-image: url("../img/Tinhte3.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border-radius: 15px;
+    }
+    .block2 .sanphamnho2 .col-12 .anhSanpham2{
+        background-image: url("../img/Tinhte2.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border-radius: 15px;
+    }
+    .block2 .sanphamnho2 .col-12 .anhSanpham3{
+        background-image: url("../img/Tinhte1.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border-radius: 15px;
+    }
+    .block2 .sanphamnho2 .col-12 .anhSanpham4{
+        background-image: url("../img/Tinhte4.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border-radius: 15px;
+    }
+    .block2 .sanphamto2{
+        height: 500px;
+        background-color: rgb(25, 36, 51);
+    }
+    .block2 .anhSanpham1{
+        height: 350px;
+    }
+    .block2 .anhSanpham2{
+        height: 150px;
+    }
+    .block2 .sanpham .col-4{
+        height: 150px;
+        background-color: rgb(25, 36, 51);
+    }
+    .block2 .sanpham .col-8{
+        height: 150px;
+        background-color: rgb(25, 36, 51);
+    }
+    .block2 .sanphamto1{
+        display: none;
+    }
+    .block2 .sanphamnho1{
+        display: none;
+    }
+    .block2 .sanphamto2{
+        display: block;
+    }
+    .block2 .sanphamnho2{
+        display: block;
+    }
 }
 
 
