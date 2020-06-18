@@ -195,14 +195,8 @@ margin: 0;
 /*  */
 /* body */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* div, p, a{
-    border: 1px solid black;
-} */
+
+
 
 div .inset-shadow{
     width: 100%;
@@ -234,10 +228,7 @@ div .ias{
     background-size: cover; 
     top: 50%;
 }
-/* .block2 .col-6{
-    height: 650px;
-    background-color: rgb(25, 36, 51);
-} */
+
 .block2 .col-6 .anhSanpham1{
     height: 500px;
     background-image: url("../img/Tinhte2.jpg");
@@ -652,10 +643,7 @@ div .ias{
 
 /*  */
 /* footer */
-div{
-    /* border: 1px solid white; */
- padding: 0;
-}
+
 
 .footer{
     background-color:hsla(222,25%,20%,1);
