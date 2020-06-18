@@ -22,7 +22,6 @@
 /* div, p, a{
     border: 1px solid black;
 } */
-
 div .inset-shadow{
     width: 100%;
     height: 100%;
@@ -31,6 +30,10 @@ div .inset-shadow{
     -moz-box-shadow: inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
     box-shadow: inset 0 0 10px #000000;
+}
+.block2 span:hover {
+    color: red;
+    cursor: pointer;
 }
 .taiAppTinhte .inset-shadow , .listCongDong .inset-shadow{
     border-bottom-right-radius: 25px;
@@ -145,31 +148,34 @@ div .ias{
 }
 
 .block2 .ias .iconAndseeFeed .icons5{
-    width: 60%;
-}
-.block2 .ias .iconAndseeFeed .iconsSub{
-    width: 20%;
+    width: 80%;
+    margin: 0 auto;
 }
 .block2 .ias .iconAndseeFeed .icons .icons5 .span2{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
     height: 100%;
     width: 20%;
 }
-.block2 .ias .iconAndseeFeed .icons .icons5 .anh1{
+.block2 .ias .iconAndseeFeed .icons .icons5 .span2 .img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .span2 .anh1{
     background-image: url("../img/icon1TinhTe.png");
 }
-.block2 .ias .iconAndseeFeed .icons .icons5 .anh2{
-    background-image: url("../img/icon2TinhTe.png");
+.block2 .ias .iconAndseeFeed .icons .icons5 .span2 .anh2{
+    background-image: url("../img/icon2TinhTe.png"); 
 }
-.block2 .ias .iconAndseeFeed .icons .icons5 .anh3{
+.block2 .ias .iconAndseeFeed .icons .icons5 .span2 .anh3{
     background-image: url("../img/icon3TinhTe.png");
 }
-.block2 .ias .iconAndseeFeed .icons .icons5 .anh4{
+.block2 .ias .iconAndseeFeed .icons .icons5 .span2 .anh4{
     background-image: url("../img/icon4TinhTe.png");
 }
-.block2 .ias .iconAndseeFeed .icons .icons5 .anh5{
+.block2 .ias .iconAndseeFeed .icons .icons5 .span2 .anh5{
     background-image: url("../img/icon5TinhTe.png");
 }
 .block2 .ias .iconAndseeFeed .contenticons .icons5 .span2{
