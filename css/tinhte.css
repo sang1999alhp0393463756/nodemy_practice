@@ -45,12 +45,13 @@ div{
     background-color:  hsl(215,34%,15%);
 }
 .top .container .row{
-    
-   
     padding: 15px 15px 15px 15px;
+   
+    
 }
 .top a{
     font-weight: bolder;
+    margin-left: 15px;
 }
 
 .contact
