@@ -875,6 +875,7 @@ margin: 20px 0;
   }
   .hotting .left{
     padding: 0 24px 0 0;
+    height: 100%;
 }
 .hotting .right{
     height: auto !important;
@@ -892,12 +893,13 @@ margin: 20px 0;
 }
 .hotting .left img{
     width: 100%;    
-    padding: 15px;
+    padding: 10px;
+    height: 100%;
    
 }
 .hotting .left .img1{
     width: 100%;
-
+    
     background-color: #FFFFFF;
     border-radius: 15px;
     margin-bottom: 30px;
