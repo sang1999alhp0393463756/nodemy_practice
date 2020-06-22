@@ -875,6 +875,234 @@ div .ias{
 }
 
 /* phần tân code thêm */
+.content-date-tan{
+   width: 100%;
+    height: 390px;
+    position: relative;
+    display: flex;
+}
+.discuss-date-tan{
+    background-color: white;
+    height: 100%;
+    padding: 0 12px 12px 12px;
+   
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+  
+}
+.main-ddt{
+    width: 100%;
+    background-color: white;
+    height: 94%;
+    border: 1px solid #e8e8e8;
+    border-top: 6px solid black; 
+    
+    
+}
+.main-ddt-top{
+    height: 16%;
+    border-bottom: 1px solid gray;
+    padding: 17px 33px 29px 17px;
+   
+}
+
+
+.title-ddt {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: -6px;
+  
+}
+
+.main-ddt-bottom{
+    padding: 10px;
+}
+.img-ddt{
+    background-image: url(../img/androidTinhTe.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 191px;
+    width: 100%;
+}
+.title-ddt-bottom{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size:14px;
+    line-height: 21px;
+} 
+.title-ddt a{
+    color: black;
+}
+.title-ddt-bottom a{
+    color: black;
+}
+.title-ddt a:hover{
+    color:aqua;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main-ddt-bottom:hover{
+    color:aqua;
+    cursor: pointer;
+    text-decoration: none;
+}
+.post-hot-tan{
+    height: 100%;   
+    
+     padding: 6px 6px 6px 0;
+     
+}
+.main-pht{
+    width: 100%;
+    height: 100%;
+    
+}
+.main-pht-top{
+    width: 100%;
+    height: 12.5%;
+    padding: 0 24px;
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.main-pht-top-title{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.main-pht-top-title h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    line-height: 21px;
+    color: aqua;
+}
+.main-pht-bottom{
+    height: 87.5%;
+    width: 100%;
+    background-color: hsl(215,23%,18%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0 48px;
+    margin:0px;
+}
+.main-pht-bottom-overflow{
+    height: 100%;
+    width: 100%;
+    padding: 12px 24px;
+    overflow-x: scroll;   
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.overflow-block{
+    width: 210px;
+    height: 255px;
+    margin: 8px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 10px;
+}
+.featured-post{
+    text-decoration: none;
+    background-color: black;
+}
+.featured-post:hover{
+    text-decoration: none;
+}
+.featured-post-block{
+    width: 100%;
+    height: 100%;
+  
+}
+.img-featured-post{
+    height:50%;
+}
+.img-featured-post img{
+    height: 127px;
+    width: 100%;
+}
+.content-featured-post{
+    width: 100%;
+    height: 50%;
+    color:gray;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    text-align: justify;
+    overflow: visible;
+}
+.content-featured-post h3{
+    width: 100%;
+}
+.content-featured-post h3:hover{
+     text-decoration: none;
+     color: aqua;
+}
+
+@media screen and (max-width: 575.98px) {
+    .img-ddt{
+        min-height: 210px;
+
+    }
+    .content-date-tan{
+        min-height: 700px;
+        display: block;
+    }
+    .main-ddt-bottom{
+        max-height: 390px;
+    }
+ 
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .img-ddt{
+        min-height: 210px;
+    }
+    .content-date-tan{
+        min-height: 900px;
+        display: block;
+    }
+    .main-ddt-bottom{
+        max-height: 390px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .img-ddt{
+        min-height: 460px;
+    }
+    .content-date-tan{
+       min-height: 940px;
+       display: block;
+    }
+    .main-ddt-bottom{
+        min-height: 390px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .img-ddt{
+        max-height: 200px;
+    }
+    .content-date-tan{
+        min-height: 900px;
+        display: block;
+    }
+   }
+  @media (min-width: 1200px) { 
+    .img-ddt{
+        min-height: 200px;
+    }
+
+   }
+.branch-hot-tan{
+    height: 300px;
+    background-color: black;
+}
+.tag-hot-tan{
+    height: 300px;
+    background-color: gray;
+}
 
 
 
