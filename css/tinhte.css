@@ -55,6 +55,7 @@ div .inset-shadow{
 div .ias{
     border: 0px;
 }
+/* block1 quảng cáo */
 .block1 .quangcao{
     height: 120px;
     margin: 0 auto;
@@ -663,6 +664,8 @@ div .ias{
         width: 100%;
     }
 }
+
+/* phần tân code thêm */
 
 
 
