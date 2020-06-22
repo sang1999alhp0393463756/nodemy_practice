@@ -9,7 +9,16 @@
  }
 /* header */
 
-
+.pc{
+    top: 0;
+    position: sticky;
+    z-index: 20;
+}
+.mobile{
+    top: 0;
+    position: sticky;
+    z-index: 20;
+}
 .search{
     height: 80px;
     font-size: 1.4rem;
@@ -33,7 +42,7 @@
     font-weight: bold;
 }
 input{
-    width: 50%;
+    width: 55%;
     height: 35px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
