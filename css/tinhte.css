@@ -7,6 +7,9 @@
  html{
      font-size: 0.625rem;
  }
+ body{
+     background-color: #F2F3F5;
+ }
 /* header */
 
 
@@ -45,7 +48,7 @@ input{
 input:focus{
     outline: none;
     }
-    button{
+   .header-mobile button{
         background-color: #000033;
         border: 0;
         height: 35px;
@@ -54,13 +57,26 @@ input:focus{
         border-bottom-right-radius: 15px;
         border-top-right-radius: 15px;
     }
-    button:focus{
+   .header-mobile button:focus{
+        outline: none;
+    }
+
+    .header button{
+        background-color: #000033;
+        border: 0;
+        height: 35px;
+        color: #d6d6c2;
+        padding-right: 5px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+   .header button:focus{
         outline: none;
     }
     .col-11{
         padding: 0;
     }
-    ul{
+     ul{
         display: flex;
         padding: 0;
         margin: 0;
