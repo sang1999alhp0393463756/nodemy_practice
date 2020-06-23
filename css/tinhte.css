@@ -950,6 +950,58 @@ top: -30px;
 
 /*  */
 /* footer */
+div{
+    /* border: 1px solid white; */
+ padding: 0;
+}
+
+.footer{
+    background-color:hsla(222,25%,20%,1);
+    
+}
+.top{
+    /* height: 60px; */
+    background-color:  hsl(215,34%,15%);
+}
+
+.top a{
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.contact
+{
+    background-color:hsla(222,25%,20%,1);
+}
+.contact a{
+    color: #ABABAB;
+    float: left;
+}
+.contact i{
+    color: white;
+}
+.contact a:hover{
+    color: white;
+}
+.contactbox{
+    margin-top: 18px;
+}
+.contactbox p{
+    font-size: 20px;
+
+}
+.contactbox.col{
+    padding: 0;
+}
+.infor{
+   background-color:hsla(222,25%,20%,1) ;
+   border-top: 1px solid slategray;
+}
+.infor span{
+    color: #ABABAB;;
+    padding: 10px;
+    font-size: 13px;
+}
 
 
 
