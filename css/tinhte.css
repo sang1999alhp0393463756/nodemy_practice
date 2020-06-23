@@ -84,8 +84,28 @@ div{
     font-size: 13px;
 }
 
+/* body cua Dat */
 
-
+.add{
+    border: 1px solid red;
+    width: 29%;
+    height: 630px;
+    float: left;
+}
+.video{
+    border: 1px solid green;
+    width: 70%;
+    height: 630px;
+    float: left;
+}
+.lastyear{
+    border: 1px solid blue;
+    height: 630px;
+}
+.event{
+    border: 1px solid orange;
+    height: 630px;
+}
 
 
 
