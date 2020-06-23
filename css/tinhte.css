@@ -35,13 +35,6 @@ div .inset-shadow{
     color: red;
     cursor: pointer;
 }
-.block2 .thongtinmemberpost{
-    width: 100%;
-    height: 30%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
 .block2 .thongtinmemberpost span{
     font-size: 15px;
 }
@@ -434,6 +427,7 @@ div .ias{
         width: 35%;
         height: 80%;
         background-color: aqua;
+        border-radius: 5px;
     }
     .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar{
         width: 30%;
@@ -522,6 +516,7 @@ div .ias{
         width: 75%;
         height: 80%;
         background-color: aqua;
+        border-radius: 5px;
     }
     .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar{
         width: 30%;
@@ -661,20 +656,40 @@ div .ias{
         background-size: cover;
     }
 }
-@media screen and (max-width: 544px){
+@media screen and (max-width: 320px){
     .block2 .ias .texticon{
         display: none;
     }
-}
-@media screen and (max-width: 400px){
+    .block2 .ias{
+        height: 150px!important;
+    }
     .block2 .ias .iconAndseeFeed .divchuaicon{
         height: 100%;
         width: 100%;
         margin: 0 auto;
     }
+    .block2 .ias .iconAndseeFeed .icon{
+        height: 40%;
+    }
+    .block2 .ias .iconAndseeFeed .seeFeed{
+        height: 60%;
+    }
+    .block2 .ias .iconAndseeFeed .seeFeed  .feed{
+        width: 100%!important;
+        position: relative;
+    }
+    .block2 .ias .iconAndseeFeed .seeFeed  .feed .feedMain{
+        position: absolute;
+        width: 85%!important;
+        height: 70%!important;
+        top:50%;
+        left:50%;
+        transform: translateX(-50%) translateY(-50%);
+        border-radius: 5px;
+    }
     .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5{
-        height: 25px;
-        width: 25px;
+        height: 40px!important;
+        width: 40px!important;
         margin: 0 auto;
         background-image: url("../img/icon5TinhTe.png");
         background-position: center center;
@@ -682,8 +697,8 @@ div .ias{
         background-size: cover;
     }
     .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1{
-        height: 25px;
-        width: 25px;
+        height: 40px!important;
+        width: 40px!important;
         margin: 0 auto;
         background-image: url("../img/icon1TinhTe.png");
         background-position: center center;
@@ -691,8 +706,8 @@ div .ias{
         background-size: cover;
     }
     .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2{
-        height: 25px;
-        width: 25px;
+        height: 40px!important;
+        width: 40px!important;
         margin: 0 auto;
         background-image: url("../img/icon2TinhTe.png");
         background-position: center center;
@@ -700,8 +715,8 @@ div .ias{
         background-size: cover;
     }
     .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3{
-        height: 25px;
-        width: 25px;
+        height: 40px!important;
+        width: 40px!important;
         margin: 0 auto;
         background-image: url("../img/icon3TinhTe.png");
         background-position: center center;
@@ -709,8 +724,60 @@ div .ias{
         background-size: cover;
     }
     .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4{
-        height: 25px;
-        width: 25px;
+        height: 40px!important;
+        width: 40px!important;
+        margin: 0 auto;
+        background-image: url("../img/icon4TinhTe.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 414px){
+    .block2 .ias .iconAndseeFeed .divchuaicon{
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5{
+        height: 50px;
+        width: 50px;
+        margin: 0 auto;
+        background-image: url("../img/icon5TinhTe.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1{
+        height: 50px;
+        width: 50px;
+        margin: 0 auto;
+        background-image: url("../img/icon1TinhTe.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2{
+        height: 50px;
+        width: 50px;
+        margin: 0 auto;
+        background-image: url("../img/icon2TinhTe.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3{
+        height: 50px;
+        width: 50px;
+        margin: 0 auto;
+        background-image: url("../img/icon3TinhTe.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4{
+        height: 50px;
+        width: 50px;
         margin: 0 auto;
         background-image: url("../img/icon4TinhTe.png");
         background-position: center center;
@@ -736,6 +803,13 @@ div .ias{
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; 
+    }
+    .block2 .col-6 .contentSanpham1 .contenSanpham1Con{
+        height: 80%;
+        width: 95%;
+    }
+    .block2 .col-6 .contentSanpham1 .contenSanpham1Con .thongtinmemberpost{
+        height: 20%;
     }
     .block2 .col-6 .contentSanpham1{
         height: 25%;
@@ -859,7 +933,6 @@ div .ias{
 
     .block2 .sanphamnho2 .col-12{
         background-color: rgb(25, 36, 51);
-        border-top: 1px solid whitesmoke;
     }
     .block2 .sanphamnho2 .col-12 .anhSanpham1{
         background-image: url("../img/Tinhte3.jpg");
