@@ -86,22 +86,32 @@ div{
 
 /* body cua Dat */
 
+*{
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+}
 .radius{
     border-radius: 15px;
 }
-.addcontent{
-    background-color: silver;
-    width: 300px;
-    height: 600px;
+
+.p1{
 }
 .add{
     border: 1px solid red;
     height: 630px;
-   
+    width: 30%;
+    padding: 20px;
+}
+.addcontent{
+    background-color: silver;
+    
+    
 }
 .video{
     border: 1px solid green;
     height: 630px;
+    width: 69%;
 }
 .lastyear{
     border: 1px solid blue;
