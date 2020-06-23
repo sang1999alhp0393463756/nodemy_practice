@@ -86,36 +86,44 @@ div{
 
 /* body cua Dat */
 
-*{
-    display: block;
-    box-sizing: border-box;
-    margin: auto;
-}
+
 .radius{
     border-radius: 15px;
 }
 
+
 .p1{
+     display: flex;
+}
+.p1 div{
+   
+    box-shadow: 2px 2px 4px #000000;
 }
 .add{
     border: 1px solid red;
     height: 630px;
     width: 30%;
-    padding: 20px;
+    margin-right: 20px;
 }
 .addcontent{
     background-color: silver;
-    
-    
 }
 .video{
     border: 1px solid green;
     height: 630px;
     width: 69%;
 }
+.p2{
+      box-shadow: 2px 2px 4px #000000;
+      display: flex;
+}
+.p2 div{
+    box-shadow: 2px 2px 4px #000000;
+}
 .lastyear{
     border: 1px solid blue;
     height: 630px;
+    margin-right: 20px;
 }
 .event{
     border: 1px solid orange;
