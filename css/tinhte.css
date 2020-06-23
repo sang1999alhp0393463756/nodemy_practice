@@ -22,6 +22,13 @@
 /* div, p, a{
     border: 1px solid black;
 } */
+@font-face {
+    font-family: 'Roboto';
+    src: url(sansation_light.woff);
+}
+.bodyPageTinhTe{
+    background-color: #f2f3f5;
+}
 
 div .inset-shadow{
     width: 100%;
@@ -30,10 +37,6 @@ div .inset-shadow{
     /* -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75); */
     box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
-}
-.block2 span:hover {
-    color: red;
-    cursor: pointer;
 }
 .block2 .thongtinmemberpost span{
     font-size: 15px;
@@ -44,6 +47,9 @@ div .inset-shadow{
 }
 .questionandnews .inset-shadow{
     border-radius: 25px;
+}
+.questionandnews .contentQuestion .contentradius .contentchau .col-10{
+    background-color: rgb(239, 241, 243);
 }
 div .ias{
     border: 0px;
@@ -195,14 +201,19 @@ div .ias{
     background-size: cover;
 }
 .block2 .taiAppTinhte, .thongkeAnhEmtichcuc {
-    border-top: 10px solid black;
+    border-top: 5px solid black;
 }
 .block2 .thongkeAnhEmtichcuc{
-    border-top: 10px solid black;
-    border-bottom: 10px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 .block2 .taiAppTinhte .textPtaiappTinhTe{
     border-bottom: 1px solid white ;
+}
+.block2 .taiAppTinhte{
+    height: 450px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2{
     height: 20%;
@@ -231,9 +242,10 @@ div .ias{
     background-size: cover;
 }
 
+
 .block2 .scroll .scrollingconmain{
     position: relative;
-    background-image: linear-gradient(45deg, rgb(245, 78, 162), rgb(255, 118, 118));;
+    background-image: linear-gradient(45deg, rgb(245, 78, 162), rgb(255, 118, 118));
     border-radius: 20px;
 }
 .block2 .sanphamCongdong .scrollingconmain{
@@ -243,7 +255,7 @@ div .ias{
     height: 26px;
     width: 26px;
     border-radius: 13px;
-    background-color: hsla(180,100%,55%,1);
+    background-image: linear-gradient(45deg, rgb(245, 78, 162), rgb(255, 118, 118));
 }
 .block2 .scrollingconmain .personmore .iconpluscon{
     border-radius: 10px;
@@ -252,6 +264,22 @@ div .ias{
 }
 .block2 .scrollingconmain .personmore .iconplus i{
     font-size: 20px;
+}
+.block2 .question .title1, .news .title1{
+    font-size: 25px;
+    font-weight:700;
+}
+.block2 .contentchau .col-10 p{
+    font-size: 15px;
+}
+.block2 .contentchau .col-10 .col-12 .col-6{
+    color:hsla(0,0%,67%,1);
+}
+.block2 .contentQuestion{
+    cursor:pointer;
+}
+.block2 .contentQuestion:hover h5{
+    color: hsla(188,100%,42%,1);
 }
 
 .block2 .scrollingconmain .avataricontext{
@@ -284,12 +312,6 @@ div .ias{
     overflow-y: hidden;
     white-space: nowrap;
 }
-
-.scrollimg .scrollingconmain{
-    border-top:2px solid black;
-    border-bottom:2px solid black;
-    margin-top:2px
-}
 .block2 .listscroll .scrollimg{
     margin: -1px;
     margin-right: 10px;
@@ -306,7 +328,7 @@ div .ias{
     height: 300px;
 }
 .block2 .quangcaoandList .quangcao .contentquangcao{
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .block2 .quangcaoandList .quangcao .contentquangcao .commercial{
@@ -336,6 +358,9 @@ div .ias{
 }
 .block2 .contentCongdong{
     height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+    border-top: 5px solid black;
 }
 .block2 .sanphamCongdong{
     height: 550px;
@@ -355,12 +380,12 @@ div .ias{
 
 .block2 .buttonSeemore .daddya a{
     position: absolute;
-    text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     background-color: black;
     border-radius: 5px;
     height: 60px;
     width: 200px;
+    font-weight: 700;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -376,6 +401,9 @@ div .ias{
 }
 .block2 .contentchau .col-10 .content{
     height: 70%;
+}
+.block2 a{
+    text-decoration: none;
 }
 
 .block2 .contentchau .avatar{
@@ -426,7 +454,7 @@ div .ias{
     .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain{
         width: 35%;
         height: 80%;
-        background-color: aqua;
+        background-image: linear-gradient(45deg,  hsla(188,100%,42%,1) , aqua);
         border-radius: 5px;
     }
     .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar{
@@ -585,6 +613,7 @@ div .ias{
     }
     .block2 .buttonSeemore .daddya a{
         width: 100%;
+        color: black!important;
         background-color: rgb(230, 230, 230);
     }
     .block2 .androidContent{
@@ -734,6 +763,34 @@ div .ias{
     }
 }
 @media screen and (max-width: 414px){
+    .block2 .listCongDong{
+        height: 150px!important;
+    }
+    .block2 .sanphamCongdong{
+        height: 60%;
+    }
+    .block2 .sanphamCongdong .scrollimg{
+        height: 100%;
+        width: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain{
+        height: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent .androidSm .android1{
+        width: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent{
+        height: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent .androidSm .android2{
+        width: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent .androidSm .android1 .androidAvatar{
+        width: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent .androidSm .android2 .androidAvatar{
+        width: 100%;
+    }
     .block2 .ias .iconAndseeFeed .divchuaicon{
         height: 100%;
         width: 100%;
@@ -811,11 +868,26 @@ div .ias{
     .block2 .col-6 .contentSanpham1 .contenSanpham1Con .thongtinmemberpost{
         height: 20%;
     }
-    .block2 .col-6 .contentSanpham1{
+    .block2 .col-6 .contentSanpham1, .col-6 .contentSanpham2{
         height: 25%;
         width: 100%;
         font-size: 20px;
-        background-color: black;
+        background-color: black;    
+    }
+    .block2 .col-6, .col-4{
+        cursor:pointer;
+    }
+    .block2 .col-6:hover .col-12 .contentGeneral1{
+        color: aqua!important;
+    }
+    .block2 .col-4:hover .chung .contentGeneral2{
+        color: aqua!important;
+    }
+    .block2 .daddya a{
+        cursor: pointer;
+    }
+    .block2 .daddya a:hover{
+        color:aqua!important;
     }
     .block2 .col-6 .anhSanpham2{
         height: 75%;
@@ -866,7 +938,7 @@ div .ias{
     .block2 .col-4 .anhSanpham3{
         height: 60%;
         width: 100%;
-        background-image: url("../img/Tinhte5.jpg");
+        background-image: url("../img/Tinhte2.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -909,6 +981,21 @@ div .ias{
     }
 }
 @media screen and (max-width: 700px){
+    .block2 .daddya a{
+        cursor: pointer;
+    }
+    .block2 .daddya a:hover{
+        color:hsla(188,100%,42%,1)!important;
+    }
+    .block2 .col-12{
+        cursor:pointer;
+    }
+    .block2 .col-12:hover .col-12 .contentGeneral1{
+        color: aqua!important;
+    }
+    .block2 .col-12:hover .col-7 .contentGeneral2{
+        color: aqua!important;
+    }
     .block2 .ias{
         position: relative;
         height: 200px;
@@ -951,7 +1038,7 @@ div .ias{
         height: 100%;
     }
     .block2 .sanphamnho2 .col-12 .anhSanpham3{
-        background-image: url("../img/Tinhte1.jpg");
+        background-image: url("../img/Tinhte2.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -967,7 +1054,7 @@ div .ias{
         height: 100%;
     }
     .block2 .sanphamnho2 .sanpham{
-        height: 400px;
+        height: 500px;
     }
     .block2 .sanphamnho2 .sanpham .col-12{
         height: 25%;
