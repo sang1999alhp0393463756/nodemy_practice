@@ -1282,18 +1282,24 @@ top: -30px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+.hotting .right .content1 .title a{
+    text-decoration: none;
+
+}
+
+
 .hotting .right .content1 .title p{
+    text-decoration: none;
     font-size: 1.5rem;
     color: #ABABAB;
     font: 1.2rem sans-serif;
     font-weight: bold;
-    padding: 14px 0;
-    border-bottom: 1px solid darkgrey;
+    padding: 12px 0;
+    border-bottom: 0.5px solid darkgrey;
 }
 .hotting .right .content1 .title p:hover{
     color: deepskyblue;
 }
-
 
 .tagHot{
     height: auto;
