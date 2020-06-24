@@ -147,6 +147,24 @@ div .ias{
 .block2 .hashtagandseemore{
     height: 100px;
 }
+.block2 .hashtagandseemore .divchuahas{
+    height: 80%;
+}
+.block2 .hashtagandseemore .divchuahas span{
+    padding-left: 6px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.block2 .hashtagandseemore .divchuahas a{
+    margin-left: 12px;
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: rgb(242, 85, 41);
+}
 .block2 .scroll{
     min-height: 300px;
     -webkit-overflow-scrolling: touch;
@@ -160,8 +178,41 @@ div .ias{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
+.block2 .scroll .scrollimg .loadMore{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 47, 61);
+    border-radius: 10px;
+}
+.block2 .scroll .scrollimg .loadMore .loadMoresub{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 40%;
+    width: 80%;
+}
+.block2 .scroll .scrollimg .loadMore .loadMoresub .icon{
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 255, 255);
+}
+.block2 .scroll .scrollimg .loadMore .loadMoresub .icon i{
+    font-size: 30px;
+}
+.block2 .scroll .scrollimg .loadMore .loadMoresub .icon .text{
+    height: 80%;
+    width: 100%;
+    word-wrap: break-word !important;
+}
+.block2 .scroll .scrollimg .loadMore .loadMoresub .icon .text p{
+    width: 80%;
+    font-size: 15px;
+}
+
 .block2 .scroll .scrollimg .avatarNick .avatarNickcon{
     height: 85%;
     width: 80%;
@@ -186,6 +237,7 @@ div .ias{
     position: absolute;
     top: 100%;
     transform:translateY(-100%);
+    font-size: 13px;
     font-weight: 700;
 }
 .block2 .taiAppTinhte .linkgoogleandappstore .linkgoogle{
@@ -219,6 +271,10 @@ div .ias{
     height: 20%;
     border-top: 2px solid white;
 }
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip .col-3{
+    background-image: linear-gradient(45deg,  hsla(188,100%,42%,1) , aqua);
+    border-radius: 8px;
+}
 .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip, .contentName{
     height: 50%;
 }
@@ -246,7 +302,7 @@ div .ias{
 .block2 .scroll .scrollingconmain{
     position: relative;
     background-image: linear-gradient(45deg, rgb(245, 78, 162), rgb(255, 118, 118));
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .block2 .sanphamCongdong .scrollingconmain{
     height: 500px;
@@ -255,7 +311,7 @@ div .ias{
     height: 26px;
     width: 26px;
     border-radius: 13px;
-    background-image: linear-gradient(45deg, rgb(245, 78, 162), rgb(255, 118, 118));
+    background-color: hsla(180,100%,55%,1);
 }
 .block2 .scrollingconmain .personmore .iconpluscon{
     border-radius: 10px;
@@ -319,6 +375,8 @@ div .ias{
     height: 100%;
     width: 150px;
     border-radius: 20px;
+    cursor: pointer;
+    position: relative;
     /* background-color: aqua; */
 }
 /* .block2 .quangcaoandList{
@@ -356,6 +414,44 @@ div .ias{
     min-height: 2000px;
     border-radius: 30px;
 }
+.block2 .contentNew .new{
+    height: 180px;
+    cursor: pointer;
+}
+.block2 .contentNew .new:hover .contentNew- .contentNew1-- p{
+    color: hsla(188,100%,42%,1);
+}
+.block2 .contentNew .new .avatarNew{
+    height: 90%;
+    width: 40%;
+    background-image: url("../img/newTinhTe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+}
+.block2 .contentNew .new .contentNew-{
+    height: 90%;
+    width: 60%;
+}
+.block2 .contentNew .new .contentNew- .contentNew1--{
+    height: 25%;
+}
+.block2 .contentNew .new .contentNew- .contentNew2--{
+    height: 55%;
+}
+.block2 .contentNew .new .contentNew- .contentNew3--{
+    height: 20%;
+}
+.block2 .contentNew .new .contentNew- .contentNew3-- .avatarContentNew3--{
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    background-image: url("../img/AnhThePhong.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .block2 .contentCongdong{
     height: 70px;
     background-color: #ffffff;
@@ -372,7 +468,7 @@ div .ias{
     height: 60px;
     width: 100%;
 }
-.block2  .seemore button{
+.block2 .seemore button{
     font-size: 15px;
     background-color: red;
     color: white;
@@ -380,11 +476,11 @@ div .ias{
 
 .block2 .buttonSeemore .daddya a{
     position: absolute;
-    font-size: 20px;
+    font-size: 15px;
     background-color: black;
     border-radius: 5px;
-    height: 60px;
-    width: 200px;
+    height: 40px;
+    width: 150px;
     font-weight: 700;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -606,6 +702,8 @@ div .ias{
     }
     .block2 .thongkeAnhEmtichcuc .contentThongke{
         height: 30%;
+        font-size: 30px;
+        font-weight: 700;
     }
     .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc{
         height: 60%;
@@ -842,7 +940,7 @@ div .ias{
         background-size: cover;
     }
 }
-@media screen and (min-width: 700px){
+@media screen and (min-width: 768px){
     .block2 .ias{
         position: relative;
         height: 200px;
@@ -980,7 +1078,36 @@ div .ias{
         display: none;
     }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
+    .block2 .contentNew .new:hover .contentNew1md p{
+        color: hsla(188,100%,42%,1);
+    }
+    .block2 .d-md-none{
+        height: 200px!important;
+        width: 100%!important;
+    }
+    .block2 .d-md-none .contentNew1md{
+        height: 30%;
+        width: 100%!important;
+    }
+    .block2 .d-md-none .contentNew2md{
+        height: 70%!important;
+        width: 100%!important;
+    }
+    .block2 .d-md-none .contentNew2md .avatarNew{
+        height: 100%!important;
+        width: 100%!important;
+    }
+    .block2 .d-md-none .contentNew2md .avatarNew1-{
+        height: 100%!important;
+        width: 20%!important;
+    }
+    .block2 .d-md-none .contentNew2md .avatarNew1- .contentNew2--{
+        height: 100%!important;
+    }
+    .block2 .d-md-none .contentNew2md .avatarNew1- .contentNew3--{
+        height: 100%!important;
+    }
     .block2 .daddya a{
         cursor: pointer;
     }
