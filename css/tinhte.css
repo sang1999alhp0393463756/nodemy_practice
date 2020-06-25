@@ -130,8 +130,15 @@ div .ias{
     height: 90%;
     width: 80%;
 }
-
-
+.block2 .thongkeAnhEmtichcuc .contentThongke{
+    height: 15%;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.block2 .thongkeAnhEmtichcuc .contentThongke:hover h5{
+    color: hsla(188,100%,42%,1)!important;
+}
 .block2 .ias .iconAndseeFeed .divchuaicon .span2{
     width: 20%;
 }
@@ -260,7 +267,7 @@ div .ias{
     border-bottom: 5px solid black;
 }
 .block2 .taiAppTinhte .textPtaiappTinhTe{
-    border-bottom: 1px solid white ;
+    border-bottom: 1px solid #f2f3f5 ;
 }
 .block2 .taiAppTinhte{
     height: 450px;
@@ -269,7 +276,7 @@ div .ias{
 }
 .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2{
     height: 20%;
-    border-top: 2px solid white;
+    border-top: 2px solid #f2f3f5;
 }
 .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip .col-3{
     background-image: linear-gradient(45deg,  hsla(188,100%,42%,1) , aqua);
@@ -277,6 +284,13 @@ div .ias{
 }
 .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip, .contentName{
     height: 50%;
+}
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentName .chipboy{ 
+    font-size: 13px;
+    font-weight: 700;
+}
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentName .memberpost{
+    font-size: 13px;
 }
 .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip, .contentName .memberpost{
     float: right;
@@ -457,11 +471,16 @@ div .ias{
     background-color: #ffffff;
     box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
     border-top: 5px solid black;
+    cursor: pointer;
+}
+.block2 .contentCongdong:hover h4{
+    color: hsla(188,100%,42%,1);
 }
 .block2 .sanphamCongdong{
     height: 550px;
 }
 .block2 .sanphamCDcon{
+    border-top: #f2f3f5;
     height: 450px;
 }
 .block2 .buttonSeemore{
@@ -484,6 +503,7 @@ div .ias{
     font-weight: 700;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    text-decoration: none;
 }
 
 .block2 .contentchau{
@@ -516,6 +536,10 @@ div .ias{
 
 .block2 .textAtaiappTinhTe{
     font-size: 25px;
+    cursor: pointer;
+}
+.block2 .textAtaiappTinhTe:hover h4{
+    color: hsla(188,100%,42%,1);
 }
 .block2 .textPtaiappTinhTe{
     font-size: 20px;
@@ -579,10 +603,14 @@ div .ias{
         height: 500px;
     }
     .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc{
-        height: 350px;
+        height: 400px;
     }
     .block2 .androidContent{
+        cursor: pointer;
         height: 100px;
+    }
+    .block2 .androidContent:hover span{
+        color: hsla(188,100%,42%,1);
     }
     .block2 .ias .iconAndseeFeed .divchuaicon{
         height: 100%;
@@ -664,11 +692,21 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc{
+        height: 85%!important;
+    }
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .avataricontext .texttaoFactmoi .text{
+        width: 80px;
+        font-weight: 700;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore .iconplus{
-        height: 26px;
-        width: 50px;
+        height: 25px;
+        width: 35px;
         border-radius: 13px;
-        background-color: hsla(180,100%,55%,1);
+        background-image: linear-gradient(45deg, hsla(188,100%,42%,1) , aqua);
     }
     .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore .iconpluscon{
         border-radius: 10px;
@@ -676,7 +714,7 @@ div .ias{
         width: 26px; */
     }
     .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore .iconplus i{
-        font-size: 13px;
+        font-size: 8px;
     }
     .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc{
         height: 100%;
@@ -685,7 +723,7 @@ div .ias{
         white-space: nowrap;
     }
     .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .avataricontext{
-        height: 100%;
+        height: 60%;
     }
     .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore{
         background-image: url("../img/AnhThePhong.jpg");
@@ -694,8 +732,8 @@ div .ias{
         background-size: cover;
         background-color: hsla(188,100%,42%,1);
         border-radius: 50px;
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
     }
     .block2 .thongkeAnhEmtichcuc{
         height: 300px;
@@ -704,7 +742,9 @@ div .ias{
         height: 30%;
         font-size: 30px;
         font-weight: 700;
+        cursor: pointer;
     }
+    
     .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc{
         height: 60%;
         border-top: 2px solid rgb(230, 230, 230);
