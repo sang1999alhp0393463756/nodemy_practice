@@ -1238,13 +1238,8 @@ div .ias{
     width: 100%;
 
 }
-.hotting .right .content1{
-    height: auto !important;
-    max-height: 100% !important;
-    margin-bottom: 80px;
-    width: 100%;
 
-}
+
 .hotting .left img{
     width: 100%;    
     padding: 10px;
@@ -1257,7 +1252,7 @@ div .ias{
     background-color: #FFFFFF;
     border-radius: 15px;
     margin-bottom: 30px;
-    box-shadow: 2px 0px 5px 2px rgba(0,0,0,0.49);
+    box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
 }
 .hotting .right .content1 img{
     width: 100%;
@@ -1267,14 +1262,14 @@ div .ias{
 }
 .hotting .right .content1 h4{
 background-color: #2D4E7B;
-padding: 20px 0;
-margin: 0 18px;
-border-radius: 10px;
+padding: 15px 0;
+margin: 0 8px;
+border-radius: 8px;
 text-align: center;
 font-weight: bold;
 font-size: 2rem;
 position: relative;
-top: -30px;
+top: -27px;
 }
 .hotting .right .content1 .title{
     background-color: #192433;
@@ -1286,6 +1281,46 @@ top: -30px;
     text-decoration: none;
 
 }
+@media only screen and (min-width: 750px) {
+    .hotting .content1.p1{
+      padding-left: 0;
+      padding-right: 5px;
+    }
+    .hotting .content1.p2{
+        padding-left: 5px;
+        padding-right: 0;
+      }
+      .hotting .right h2{
+        margin: -5px 0 10px -15px;
+    }
+    .hotting .right .content1{
+        height: auto !important;
+        max-height: 100% !important;
+        margin-bottom: 60px;
+        width: 100%;
+    
+    }
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .hotting .right .content1{
+            height: auto !important;
+            max-height: 100% !important;
+            margin-bottom: 0px;
+            width: 100%;
+        
+        }
+
+    }
+    @media only screen and (max-width: 320px) {
+        .hotting .right .content1{
+            height: auto !important;
+            max-height: 100% !important;
+            margin-bottom: 60px;
+            width: 100%;
+        
+        }
+    }
 
 
 .hotting .right .content1 .title p{
@@ -1298,6 +1333,9 @@ top: -30px;
     border-bottom: 0.5px solid darkgrey;
 }
 .hotting .right .content1 .title p:hover{
+    color: deepskyblue;
+}
+.hotting .right .content1 .title h4:hover{
     color: deepskyblue;
 }
 
@@ -1330,6 +1368,10 @@ margin: 20px 0;
   .tagHot .respon{
     max-width: 50% !important;
   }
+  }
+  .tagHot .img-logo a{
+      color: white;
+      text-decoration: none;
   }
 
 
