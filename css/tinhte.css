@@ -175,6 +175,8 @@ div .ias{
 .block2 .scroll{
     min-height: 300px;
     -webkit-overflow-scrolling: touch;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .block2 .scroll .scrollimg .avatarNick{
@@ -404,7 +406,7 @@ div .ias{
 }
 
 .block2 .quangcaoandList .quangcao .contentquangcao .commercial{
-    background-image: url("../img/quangcaoTinhTe2.jpg");
+    background-image: url("../img/quangcaoTinhTeMain.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -664,6 +666,12 @@ div .ias{
     }
 }
 @media screen and (max-width: 992px){
+    .block2 .quangcaoandList .quangcao{
+        height: 500px;
+    }
+    .block2 .quangcaoandList .quangcao .contentquangcao{
+        border-radius: 10px;
+    }
     .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain{
         width: 75%;
         height: 80%;
