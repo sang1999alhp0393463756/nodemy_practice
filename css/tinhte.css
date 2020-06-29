@@ -1708,7 +1708,9 @@ top: -27px;
         padding-right: 0;
       }
       .hotting .right h2{
-        margin: -5px 0 10px -15px;
+        text-align: left !important;
+        margin: -5px 0 10px -15px !important;
+        padding: 0 !important;
     }
     .hotting .right .content1{
         height: auto !important;
@@ -1787,16 +1789,14 @@ top: -27px;
 .hotting .right .content1 .title h4:hover{
     color: deepskyblue;
 }
-
 .tagHot{
     height: auto;
-
-margin: 20px 0;
-
+    margin: 20px 0;
 }
 .tagHot h2{
-    color: #1AFFFF;
-    padding-top: 5px;
+    text-align: left !important;
+    color: #1AFFFF !important;
+    padding: 5px 0 0 0 !important;
 }
 
 .tagHot .img-logo img{
@@ -1912,11 +1912,6 @@ margin: 20px 0;
     padding: 12px 24px;
    
 }
-h2 {
-    text-align: center;
-    padding-bottom: 1em;
-}
-
 .slick-dots {
     text-align: center;
     margin: 0 0 10px 0;
