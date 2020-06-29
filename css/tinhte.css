@@ -409,6 +409,11 @@ div .ias {
     width: 100%;
     background-color: rgb(35, 47, 61);
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.block2 .scroll .scrollimg .loadMore:hover .loadMoresub .icon .text p {
+    color: red!important;
 }
 
 .block2 .scroll .scrollimg .loadMore .loadMoresub {
@@ -1039,6 +1044,7 @@ div .ias {
         height: 85%!important;
     }
     .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .avataricontext .texttaoFactmoi .text {
+        font-size: 15px;
         width: 80px;
         font-weight: 700;
         white-space: nowrap;
