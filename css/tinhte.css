@@ -178,7 +178,7 @@ div{
     font-weight: bold;
 }
 .div-xemyt-mobile{
-    padding: 0px 20px 29px;
+    padding: 0px 15px 29px;
     background-color: white;
     text-align: center;
 }
@@ -402,7 +402,23 @@ div{
 .event-bg{
     background-color: #f2f3f5;
 }
+.div-xemsk-mobile{
+    padding: 0px 15px 29px;
+    background-color: white;
+    text-align: center;
+}
 
+.xemsk-mobile{
+    color: black;
+    background-color: lavender;
+    margin: 0;
+    bottom: auto;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+}
+    
 
 @media only screen and (max-width:1200px){
     .video{
@@ -417,6 +433,20 @@ div{
     .event-nd{
         max-width: 556px;
     }
+    .event-nd{
+        margin: 0 12px 0px 12px;
+        padding: 12px;
+        max-width: 749px;
+     }
+    .div-xemyt-mobile{
+        padding: 0px 30px 29px;
+    }
+    .xemsk{
+        left: 207px;
+    }
+    .div-xemsk-mobile{
+        padding: 0px 30px 29px;
+    }
 }
 @media only screen and (max-width:990px){
     .dm-text{
@@ -428,6 +458,7 @@ div{
     .event-nd{
        margin: 0 12px 0px 12px;
        padding: 12px;
+       max-width: 683px;
     }
     .title{
         margin-bottom: 12px;
@@ -436,7 +467,30 @@ div{
     .lastyear{
         margin-top: 18px;
     }
-    
+    .event-content{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .video-content{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .div-xemyt-mobile{
+        padding: 0px 15px 29px;
+    }
+    .div-xemsk-mobile {
+        padding: 0px 16px 29px;
+    }
+    @media only screen and (max-width:770px){
+        .new-title{
+            font-weight: bold;
+        }
+        .new-time{
+            font-weight: bold;
+            color: black;
+        }
+    }
+
 }
 
 
