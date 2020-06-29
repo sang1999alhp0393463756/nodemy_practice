@@ -816,15 +816,15 @@ div .ias {
 
 .block2 .buttonSeemore .daddya a {
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-decoration: none;
     font-size: 15px;
     background-color: black;
     border-radius: 5px;
     height: 40px;
     width: 150px;
     font-weight: 700;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    text-decoration: none;
 }
 .block2 .questioncon{
     height: 20%;
