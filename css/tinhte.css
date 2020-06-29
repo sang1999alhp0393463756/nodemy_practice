@@ -2091,8 +2091,8 @@ p.info-post-tan{
    .prev{
        left: 15px;
    }
-   .container-date-tan .row{
-       margin: 0;
+   .content-date-tan .row{
+       margin: 0 !important;
    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -2301,7 +2301,6 @@ p.info-post-tan{
 .lastyear{
     margin-right: 20px;
     margin-bottom: 18px;
-    padding: 0 12px 12px 12px;
     border: 1px solid #e8e8e8;
     border-top: solid 6px black;
     border-bottom-right-radius: 12px;
