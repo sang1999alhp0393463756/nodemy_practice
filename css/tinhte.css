@@ -286,6 +286,7 @@ div .ias {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .block2 .taiAppTinhte .linkgoogleandappstore .linkappstore {
@@ -293,6 +294,7 @@ div .ias {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .block2 .taiAppTinhte,
@@ -333,6 +335,11 @@ div .ias {
 .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentName .chipboy {
     font-size: 13px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentName:hover .chipboy {
+    color: hsla(188, 100%, 42%, 1);
 }
 
 .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentName .memberpost {
@@ -360,6 +367,7 @@ div .ias {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .block2 .scroll .scrollingconmain {
@@ -482,6 +490,7 @@ div .ias {
 
 .block2 .quangcaoandList .quangcao .contentquangcao {
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .block2 .quangcaoandList .quangcao .contentquangcao .commercial {
@@ -654,13 +663,14 @@ div .ias {
 
 .block2 .taiAppTinhte .imgquangcao {
     height: 200px;
+    cursor: pointer;
 }
 
 .block2 .linkgoogleandappstore {
-    height: 80px;
-    background-color: whitesmoke;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+    height: 25%;
+    background-color: rgb(201, 198, 198);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .block2 .linkgoogle {
