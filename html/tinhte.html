@@ -5,201 +5,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/tinhte.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<<<<<<< HEAD
+    
+    <link rel="stylesheet" href="../css/tinhte.css">
     <title>Document</title>
-=======
-    <!-- <link rel="stylesheet" href="../css/tinhte.css">
-    <link rel="stylesheet" href="../../../Bootstrap/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../Icon/fontawesome/css/all.min.css"> -->
->>>>>>> be827b08e3e54027966ed8ea51f8d60e48115b80
 </head>
-
 <body>
-  
-<!-- header code vào đây -->
+<!-- header -->
+    <div class="pc d-none d-sm-block">
+        <div class="header">
+            <div class="container">
+                <div class="row search">
+                    <div class="col-1 logo d-flex align-items-center d-flex justify-content-center">
+                        <img src="../img/logo_small.png" alt="">
+                    </div>
+                    <div class="col-11  d-flex align-items-center">
+                        <p>Diễn Đàn</p>
+                        <p>Camera</p>
+                        <p>Xe</p>
+                        <p style="margin-right: 25px;">Flyfood</p>
+                        <input type="text" placeholder="Tìm bài viết, sản phẩm, nhóm ...">
+                        <button> <i class="fa fa-search"></i></button>
+                        <p style="padding-left: 15px;">Đăng nhập</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-<div class="pc	d-none d-sm-block">
-    <div class="header">
-
-        <div class="container">
-            <div class="row search">
-                <div class="col-1 logo d-flex align-items-center d-flex justify-content-center">
+        <div class="menu">
+            <div class="container">
+                <div class="row jxs">
+                    <div class="cauhinh col-4 text-white d-flex align-items-center d-flex justify-content-center">
+                        <ul>
+                            <li>Android</li>
+                            <li>IOS</li>
+                            <li>Windows</li>
+                            <li>macOS</li>
+                        </ul>
+                    </div>
+                    <div class="col-8 text-white d-flex align-items-center ">
+                        <i class="fa fa-calendar" style="margin-right: 5px;"></i>
+                        Không có sự kiện nào sắp diễn ra
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="mobile 	d-block d-sm-none">
+        <div class="header-mobile p-1">
+            <div id="h01" class="row">
+                <div class="col-2 test d-flex align-items-center d-flex justify-content-center">
                     <img src="../img/logo_small.png" alt="">
                 </div>
-                <div class="col-11  d-flex align-items-center">
-                    <p>Diễn Đàn</p>
-                    <p>Camera</p>
-                    <p>Xe</p>
-                    <p style="margin-right: 25px;">Flyfood</p>
-                    <input type="text" placeholder="Tìm bài viết, sản phẩm, nhóm ...">
-                    <button> <i class="fa fa-search"></i></button>
-                    <p style="padding-left: 15px;">Đăng nhập</p>
+                <div class="col-3 test text-white d-flex align-items-center d-flex justify-content-center ">
+
+                    <button onclick="openNav()">
+                        <i class='fas fa-edit' style="font-size: 22px"></i>
+                        <p>menu</p>
+                    </button>
                 </div>
-
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="menu">
-        <div class="container">
-            <div class="row jxs">
-                <div class="cauhinh col-4 text-white d-flex align-items-center d-flex justify-content-center">
-                    <ul>
-
-                        <li>
-                            Android
-                        </li>
-                        <li>
-                            IOS
-                        </li>
-                        <li>
-                            Windows
-                        </li>
-                        <li>
-                            macOS
-                        </li>
-                    </ul>
+                <div class="col-2 test"></div>
+                <div class="col-1 test text-white  d-flex align-items-center d-flex justify-content-end">
+                <button class="btn1"><i class="fa fa-search "style="font-size: 22px"></i></button>  </div>
+                <div class=" col-4 test text-white  d-flex align-items-center d-flex justify-content-center">
+                    <p>Đăng Nhập</p>
                 </div>
-
-                <div class="col-8 text-white d-flex align-items-center ">
-                    <i class="fa fa-calendar" style="margin-right: 5px;"></i>
-                    Không có sự kiện nào sắp diễn ra</div>
             </div>
+            <div id="h02" class="row"  >
+                <div class="col-1 text-white p-0 d-flex align-items-center d-flex justify-content-center ">
+                    <button class="btn2"> <i class="fa fa-close" style="font-size:24px"></i></button>
+                </div>
+                <div class="col-10 p-0  d-flex align-items-center d-flex justify-content-center">
+                    <input type="text" style="border-radius: 0;width: 100%; font-size: 1.7rem;" placeholder="Tìm kiếm ...">
+                </div>
+                <div class="col-1 text-white p-0 d-flex align-items-center d-flex justify-content-center">
+                    <i class="fa fa-search "style="font-size: 24px"></i>
+                </div>
+            </div>
+        </div>
+    
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="panel-group">
+                <a data-toggle="collapse" href="#collapse1" style="position: relative;">Diễn đàn 
+                    <i class="fa fa-angle-down" style="position: absolute;right: 40px;top: 15px;"></i>
+                </a>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Tìm kiếm</a>
+                    <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Bài mới</a>
+                </div>
+            </div>
+            <div class="panel-group">
+                <a data-toggle="collapse" href="#collapse3" style="position: relative;">
+                    Camera
+                    <i class="fa fa-angle-down" style="position: absolute;right: 40px;top: 15px;"></i>
+                </a>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Bài mới</a>
+                    <a href="#" class="panel-body" style="font-size: 14px;border: 0;">ảnh mới</a>
+                    <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Gallery</a>
+                    <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Mua bán camera</a>
+                    <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Facebook</a>
+                </div>
+            </div>
+            <div class="panel-group">
+                <a data-toggle="collapse" href="#collapse2" style="position: relative;">
+                    Xe 
+                    <i class="fa fa-angle-down" style="position: absolute;right: 40px;top: 15px;"></i>
+                </a>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <a href="#" class="panel-body" style="font-size: 14px;border: 0;" >Xe máy</a>
+                    <a href="#" class="panel-body"  style="font-size: 14px;border: 0;">Xe ô tô</a>
+                    <a href="#" class="panel-body"  style="font-size: 14px;border: 0;">Xe đạp</a>
+                    <a href="#" class="panel-body"  style="font-size: 14px;border: 0;">Giao thông & PTVC khác</a>
+                    <a href="#" class="panel-body"  style="font-size: 14px;border: 0;">Du lịch</a>
+                </div>
+            </div>
+            <a href="#">Flyfood</a>
+            <a href="#">Điện thoại</a>
+            <a href="#">Máy tính</a>
+            <a href="#">KHCN</a>
+            <a href="#">Bạn bè</a>
+            <a href="#">Sự kiện</a>
+            <a href="#">Thiết lập</a>
         </div>
     </div>
-</div>
-</div>
-<div class="mobile 	d-block d-sm-none">
-    <div class="header-mobile p-1">
-        <div id="h01" class="row">
-            <div class="col-2 test d-flex align-items-center d-flex justify-content-center">
-                <img src="../img/logo_small.png" alt="">
+    <!--/header-->
 
-            </div>
-            <div class="col-3 test text-white d-flex align-items-center d-flex justify-content-center ">
-
-                <button onclick="openNav()">
-                    <i class='fas fa-edit' style="font-size: 22px"></i>
-                    <p>menu</p>
-                </button>
-            </div>
-            <div class="col-2 test"></div>
-            <div class="col-1 test text-white  d-flex align-items-center d-flex justify-content-end">
-              <button class="btn1"><i class="fa fa-search "style="font-size: 22px"></i></button>  </div>
-            <div class=" col-4 test text-white  d-flex align-items-center d-flex justify-content-center">
-                <p>Đăng Nhập</p>
-            </div>
-        </div>
-        <div id="h02" class="row"  >
-            <div class="col-1 text-white p-0 d-flex align-items-center d-flex justify-content-center ">
-                <button class="btn2"> <i class="fa fa-close" style="font-size:24px"></i></button>
-                
-            </div>
-            <div class="col-10 p-0  d-flex align-items-center d-flex justify-content-center">
-                <input type="text" style="border-radius: 0;width: 100%; font-size: 1.7rem;" placeholder="Tìm kiếm ...">
-            </div>
-            <div class="col-1 text-white p-0 d-flex align-items-center d-flex justify-content-center">
-                <i class="fa fa-search "style="font-size: 24px"></i>
-            </div>
-        </div>
-
-    </div>
- 
-    <div id="mySidepanel" class="sidepanel">
-
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <div class="panel-group">
-
-
-
-            <a data-toggle="collapse" href="#collapse1" style="position: relative;">Diễn đàn <i
-                    class="fa fa-angle-down" style="position: absolute;right: 40px;top: 15px;"></i></a>
-
-
-            <div id="collapse1" class="panel-collapse collapse">
-                <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Tìm kiếm</a>
-                <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Bài mới</a>
-
-            </div>
-        </div>
-
-        <div class="panel-group">
-
-
-
-            <a data-toggle="collapse" href="#collapse3" style="position: relative;">Camera <i
-                    class="fa fa-angle-down" style="position: absolute;right: 40px;top: 15px;"></i></a>
-
-
-            <div id="collapse3" class="panel-collapse collapse">
-                <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Bài mới</a>
-                <a href="#" class="panel-body" style="font-size: 14px;border: 0;">ảnh mới</a>
-                <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Gallery</a>
-                <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Mua bán camera</a>
-                <a href="#" class="panel-body" style="font-size: 14px;border: 0;">Facebook</a>
-
-            </div>
-        </div>
-        <div class="panel-group">
-
-
-
-            <a data-toggle="collapse" href="#collapse2" style="position: relative;">Xe <i class="fa fa-angle-down"
-                    style="position: absolute;right: 40px;top: 15px;"></i></a>
-
-
-            <div id="collapse2" class="panel-collapse collapse">
-                <a href="#" class="panel-body" style="font-size: 14px;border: 0;" >Xe máy</a>
-                <a href="#" class="panel-body"  style="font-size: 14px;border: 0;">Xe ô tô</a>
-                <a href="#" class="panel-body"  style="font-size: 14px;border: 0;">Xe đạp</a>
-                <a href="#" class="panel-body"  style="font-size: 14px;border: 0;">Giao thông & PTVC khác</a>
-                <a href="#" class="panel-body"  style="font-size: 14px;border: 0;">Du lịch</a>
-            </div>
-        </div>
-        <a href="#">Flyfood</a>
-
-        <a href="#">Điện thoại</a>
-        <a href="#">Máy tính</a>
-
-   
-        <a href="#">KHCN</a>
-        <a href="#">Bạn bè</a>
-        <a href="#">Sự kiện</a>
-        <a href="#">Thiết lập</a>
-    </div>
-</div>
-
-
-    <!-- header code vào đây -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--  -->
-    <!-- body code vào đây -->
+    <!-- bodyPageTinhTe -->
     <div class="bodyPageTinhTe">
         <!-- quảng cáo  -->
         <div class="block1">
@@ -1161,9 +1099,7 @@
                         </div>
                         <div class="col-12 contentNew inset-shadow">
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1189,9 +1125,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
-                                    </div>
+                                    <div class="avatarNew"></div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
                                             <p style="font-size: 11px;" class="h-100">Thiết kế hình tròn, nhỏ gọn, màu sắc hài hòa, trang nhã Điều khiển bằng cơ và điện tử Có màn hình LED thông báo Bề mặt được làm bằng kính ceramic Công suất 2000W</p>
@@ -1208,9 +1142,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1236,9 +1168,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
-                                    </div>
+                                    <div class="avatarNew"></div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
                                             <p style="font-size: 11px;" class="h-100">Thiết kế hình tròn, nhỏ gọn, màu sắc hài hòa, trang nhã Điều khiển bằng cơ và điện tử Có màn hình LED thông báo Bề mặt được làm bằng kính ceramic Công suất 2000W</p>
@@ -1255,9 +1185,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1283,9 +1211,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
-                                    </div>
+                                    <div class="avatarNew"></div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
                                             <p style="font-size: 11px;" class="h-100">Thiết kế hình tròn, nhỏ gọn, màu sắc hài hòa, trang nhã Điều khiển bằng cơ và điện tử Có màn hình LED thông báo Bề mặt được làm bằng kính ceramic Công suất 2000W</p>
@@ -1302,9 +1228,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1330,9 +1254,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
-                                    </div>
+                                    <div class="avatarNew"></div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
                                             <p style="font-size: 11px;" class="h-100">Thiết kế hình tròn, nhỏ gọn, màu sắc hài hòa, trang nhã Điều khiển bằng cơ và điện tử Có màn hình LED thông báo Bề mặt được làm bằng kính ceramic Công suất 2000W</p>
@@ -1349,9 +1271,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1377,9 +1297,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
-                                    </div>
+                                    <div class="avatarNew"></div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
                                             <p style="font-size: 11px;" class="h-100">Thiết kế hình tròn, nhỏ gọn, màu sắc hài hòa, trang nhã Điều khiển bằng cơ và điện tử Có màn hình LED thông báo Bề mặt được làm bằng kính ceramic Công suất 2000W</p>
@@ -1396,9 +1314,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1424,8 +1340,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
+                                    <div class="avatarNew"></div>
                                     </div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
@@ -1443,9 +1358,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1471,9 +1384,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
-                                    </div>
+                                    <div class="avatarNew"></div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
                                             <p style="font-size: 11px;" class="h-100">Thiết kế hình tròn, nhỏ gọn, màu sắc hài hòa, trang nhã Điều khiển bằng cơ và điện tử Có màn hình LED thông báo Bề mặt được làm bằng kính ceramic Công suất 2000W</p>
@@ -1490,9 +1401,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1518,9 +1427,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
-                                    </div>
+                                    <div class="avatarNew"></div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
                                             <p style="font-size: 11px;" class="h-100">Thiết kế hình tròn, nhỏ gọn, màu sắc hài hòa, trang nhã Điều khiển bằng cơ và điện tử Có màn hình LED thông báo Bề mặt được làm bằng kính ceramic Công suất 2000W</p>
@@ -1537,9 +1444,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1565,9 +1470,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
-                                    </div>
+                                    <div class="avatarNew"></div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
                                             <p style="font-size: 11px;" class="h-100">Thiết kế hình tròn, nhỏ gọn, màu sắc hài hòa, trang nhã Điều khiển bằng cơ và điện tử Có màn hình LED thông báo Bề mặt được làm bằng kính ceramic Công suất 2000W</p>
@@ -1584,9 +1487,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1613,7 +1514,6 @@
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
                                     <div class="avatarNew">
-
                                     </div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
@@ -1631,9 +1531,7 @@
                                 </div>
                             </div>
                             <div class="new d-none d-md-flex my-3 align-items-center">
-                                <div class="avatarNew">
-
-                                </div>
+                                <div class="avatarNew"></div>
                                 <div class="contentNew- px-2 h-80">
                                     <div class="contentNew1--">
                                         <p style="font-size: 18px; font-weight: 700;">Ăn lẩu một chiều cùng bếp từ đơn Fika
@@ -1659,9 +1557,7 @@
                                     </p>
                                 </div>
                                 <div class="contentNew2md d-flex d-md-none">
-                                    <div class="avatarNew">
-
-                                    </div>
+                                    <div class="avatarNew"></div>
                                     <div class="contentNew1- px-2">
                                         <div class="contentNew2--">
                                             <p style="font-size: 11px;" class="h-100">Thiết kế hình tròn, nhỏ gọn, màu sắc hài hòa, trang nhã Điều khiển bằng cơ và điện tử Có màn hình LED thông báo Bề mặt được làm bằng kính ceramic Công suất 2000W</p>
@@ -1677,7 +1573,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <!-- nút xem tất cả/ xem thêm  -->
                         <div class="buttonSeemore">
@@ -1696,19 +1591,16 @@
                 <div class="row">
                     <div class="col-12 col-md-4  d-none d-sm-block left">
                         <a href="#">
-
                             <div class="img1">
                                 <img src="../img/4811568_app_og.jpg" alt="">
                             </div>
                         </a>
                         <a href="#">
-
                             <div class="img1">
                                 <img src="../img/4811568_app_og.jpg" alt="">
                             </div>
                         </a>
                     </div>
-    
                     <div class="col-12 col-md-8 right ">
                         <div class="container">
                             <h2>Đang Hot</h2>
@@ -1748,13 +1640,10 @@
                     </div>
                 </div>
             </div>
-    
         </div>
-
 
         <div class="tagHot">
             <div class="container " style="background-color: #272742;border-radius: 10px;">
-    
                 <h2>#Tag đang HOT</h2>
                 <p style="color: #ABABAB; font-size: 1.5rem;">Anh em nhớ follow để nhận được thông tin mới nhé</p>
                 <div class="row p-3 align-items-center  justify-content-center">
@@ -1764,23 +1653,11 @@
                                     <img src="../img/download.jpg" alt="">
                                     <p>#Windows</p>
                                 </a>
-                           
                         </div>
                     </div>
                     <div
                         class="col-md-3 col-sm-6  text-white d-flex align-items-center  justify-content-center mb-5 mt-3 respon">
                         <div class="img-logo">
-    
-                            <a href="">
-                                <img src="../img/download.jpg" alt="">
-                                <p>#Windows</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div
-                        class="col-md-3 col-sm-6  text-white d-flex align-items-center  justify-content-center mb-5 mt-3 respon">
-                        <div class="img-logo">
-    
                             <a href="">
                                 <img src="../img/download.jpg" alt="">
                                 <p>#Windows</p>
@@ -1790,7 +1667,15 @@
                     <div
                         class="col-md-3 col-sm-6  text-white d-flex align-items-center  justify-content-center mb-5 mt-3 respon">
                         <div class="img-logo">
-    
+                            <a href="">
+                                <img src="../img/download.jpg" alt="">
+                                <p>#Windows</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-3 col-sm-6  text-white d-flex align-items-center  justify-content-center mb-5 mt-3 respon">
+                        <div class="img-logo">
                             <a href="">
                                 <img src="../img/download.jpg" alt="">
                                 <p>#Windows</p>
@@ -1800,7 +1685,6 @@
                     <div
                         class="col-md-3 col-sm-6  text-white d-flex align-items-center  justify-content-center mb-5 respon">
                         <div class="img-logo">
-    
                             <a href="">
                                 <img src="../img/download.jpg" alt="">
                                 <p>#Windows</p>
@@ -1810,7 +1694,6 @@
                     <div
                         class="col-md-3 col-sm-6  text-white d-flex align-items-center  justify-content-center mb-5 respon">
                         <div class="img-logo">
-    
                             <a href="">
                                 <img src="../img/download.jpg" alt="">
                                 <p>#Windows</p>
@@ -1820,7 +1703,6 @@
                     <div
                         class="col-md-3 col-sm-6  text-white d-flex align-items-center  justify-content-center mb-5 respon">
                         <div class="img-logo">
-    
                             <a href="">
                                 <img src="../img/download.jpg" alt="">
                                 <p>#Windows</p>
@@ -1830,7 +1712,6 @@
                     <div
                         class="col-md-3 col-sm-6  text-white d-flex align-items-center  justify-content-center mb-5 respon ">
                         <div class="img-logo">
-    
                             <a href="">
                                 <img src="../img/download.jpg" alt="">
                                 <p>#Windows</p>
@@ -1839,146 +1720,93 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- /bodyPageTinhTe -->
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <a href="" class="tinmoi title">TIN MỚI</a>
+                    <a href="" class="text-white title">SẢN PHẨM CÔNG NGHỆ MỚI</a>
+                    <a href="" class="text-white title">KHUYẾN MÃI</a>
+                    <a href="" class="text-white title">SỰ KIỆN</a>
+                    <a href="" class="text-white title">VIDEO</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contactbox col-md-4 col-xl col-6 ">
+                        <p class="text-white col">Tinh Tế</p>
+                        <a href="" class="col">Nội quy diễn đàn</a><br>
+                        <a href="" class="col">Thỏa thuận sử dụng dịch vụ</a><br>
+                        <a href="" class="col">Góp ý</a><br>
+                        <a href="" class="col">Hỗ trợ, hướng dẫn</a><br>
+                        <a href="" class="col">Liên hệ quảng cáo</a><br>
+                        <a href="" class="col">Tinh Tế RSS</a>
+                    </div>
+                    <div class="contactbox col-md-4 col-xl col-6">
+                        <p class="text-white col">Diễn Đàn</p>
+                        <a href="" class="col">Điện thoại</a><br>
+                        <a href="" class="col">Máy tính</a><br>
+                        <a href="" class="col">Camera</a><br>
+                        <a href="" class="col">Xe</a><br>
+                        <a href="" class="col">Khoa học công nghệ</a><br>
+                    </div>
+                    <div class="contactbox col-md-4 col-xl col-6">
+                        <p class="text-white col">Nhật báo</p>
+                        <a href="" class="col">Mua bán điện thoại</a><br>
+                        <a href="" class="col">Mua bán máy tính</a><br>
+                        <a href="" class="col">Mua bán máy tính bảng</a><br>
+                        <a href="" class="col">Mua bán camera</a><br>
+                        <a href="" class="col">Mua bán đồng hồ thông minh</a><br>
+                        <a href="" class="col">Mua bán xe</a><br>
+                        <a href="" class="col">Mua bán điện máy</a><br>
+                        <a href="" class="col">Mua bán sim, sim 3G</a><br>
+                    </div>
+                    <div class="contactbox col-md-4 col-xl col-6">
+                        <p class="text-white col">Liên kết</p>
+                        <a href="" class="col">Cà phê Tinh tế</a><br>
+                        <a href="" class="col">Khắc tên</a><br>
+                        <a href="" class="col">ChiMua.vn</a><br>
+                        <a href="" class="col">1Tudien</a><br>
+                        <a href="" class="col">NhacCuaTui</a><br>
+                        <a href="" class="col">5Giay</a><br>
+                        <a href="" class="col">Biker Vietnam</a><br>
+                    </div>
+                    <div class="contactbox col-md-4 col-xl col-6">
+                        <p class="text-white col">Theo Dõi Chúng Tôi</p>
+                        <a href="" class="col"> <i class="fab fa-facebook-square"></i> Facebook</a><br>
+                        <a href="" class="col"> <i class="fab fa-youtube"></i> YouTube</a><br>
+                        <a href="" class="col"> <i class="fab fa-flickr    "></i> Flickr</a><br>
+                        <a href="" class="col"><i class="fab fa-twitter    "></i> Twitter</a><br>
+                        <a href="" class="col"> <i class="fab fa-google"></i> Google+</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="infor">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-copyright text-center py-3">
+                        <span class="">Chịu trách nhiệm nội dung: Nguyễn Hoàng Đạt</span>
+                        <span class="">© 2020 Công ty Cổ phần MXH Tinh Tế</span>
+                        <span class="">Địa chỉ: 209 Đường Nam Kỳ Khởi Nghĩa, Phường 7, Quận 3, TP.HCM</span>
+                        <span class="">Số điện thoại: 02862713156 </span>
+                        <span class="">Giấy phép thiết lập MXH số 11/GP-BTTTT, Ký ngày: 08/01/2019 </span>
+                    </div>
+                </div>
     
-        </div>
-
-
-
-    </div>
-
-
-
-
-
-
-
-<div class="footer">
-    <div class="top">
-        <div class="container">
-            <div class="row">
-                <a href="" class="tinmoi title">TIN MỚI</a>
-                <a href="" class="text-white title">SẢN PHẨM CÔNG NGHỆ MỚI</a>
-                <a href="" class="text-white title">KHUYẾN MÃI</a>
-                <a href="" class="text-white title">SỰ KIỆN</a>
-                <a href="" class="text-white title">VIDEO</a>
             </div>
         </div>
     </div>
-    <div class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contactbox col-md-4 col-xl col-6 ">
-                    <p class="text-white col">Tinh Tế</p>
-                    <a href="" class="col">Nội quy diễn đàn</a><br>
-                    <a href="" class="col">Thỏa thuận sử dụng dịch vụ</a><br>
-                    <a href="" class="col">Góp ý</a><br>
-                    <a href="" class="col">Hỗ trợ, hướng dẫn</a><br>
-                    <a href="" class="col">Liên hệ quảng cáo</a><br>
-                    <a href="" class="col">Tinh Tế RSS</a>
-                </div>
-                <div class="contactbox col-md-4 col-xl col-6">
-                    <p class="text-white col">Diễn Đàn</p>
-                    <a href="" class="col">Điện thoại</a><br>
-                    <a href="" class="col">Máy tính</a><br>
-                    <a href="" class="col">Camera</a><br>
-                    <a href="" class="col">Xe</a><br>
-                    <a href="" class="col">Khoa học công nghệ</a><br>
-                </div>
-                <div class="contactbox col-md-4 col-xl col-6">
-                    <p class="text-white col">Nhật báo</p>
-                    <a href="" class="col">Mua bán điện thoại</a><br>
-                    <a href="" class="col">Mua bán máy tính</a><br>
-                    <a href="" class="col">Mua bán máy tính bảng</a><br>
-                    <a href="" class="col">Mua bán camera</a><br>
-                    <a href="" class="col">Mua bán đồng hồ thông minh</a><br>
-                    <a href="" class="col">Mua bán xe</a><br>
-                    <a href="" class="col">Mua bán điện máy</a><br>
-                    <a href="" class="col">Mua bán sim, sim 3G</a><br>
-                </div>
-                <div class="contactbox col-md-4 col-xl col-6">
-                    <p class="text-white col">Liên kết</p>
-                    <a href="" class="col">Cà phê Tinh tế</a><br>
-                    <a href="" class="col">Khắc tên</a><br>
-                    <a href="" class="col">ChiMua.vn</a><br>
-                    <a href="" class="col">1Tudien</a><br>
-                    <a href="" class="col">NhacCuaTui</a><br>
-                    <a href="" class="col">5Giay</a><br>
-                    <a href="" class="col">Biker Vietnam</a><br>
-                </div>
-                <div class="contactbox col-md-4 col-xl col-6">
-                    <p class="text-white col">Theo Dõi Chúng Tôi</p>
-                    <a href="" class="col"> <i class="fab fa-facebook-square"></i> Facebook</a><br>
-
-                    <a href="" class="col"> <i class="fab fa-youtube"></i> YouTube</a><br>
-
-                    <a href="" class="col"> <i class="fab fa-flickr    "></i> Flickr</a><br>
-
-                    <a href="" class="col"><i class="fab fa-twitter    "></i> Twitter</a><br>
-
-                    <a href="" class="col"> <i class="fab fa-google"></i> Google+</a><br>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="infor">
-        <div class="container">
-            <div class="row">
-                <div class="footer-copyright text-center py-3">
-                    <span class="">Chịu trách nhiệm nội dung: Nguyễn Hoàng Đạt</span>
-                    <span class="">© 2020 Công ty Cổ phần MXH Tinh Tế</span>
-                    <span class="">Địa chỉ: 209 Đường Nam Kỳ Khởi Nghĩa, Phường 7, Quận 3, TP.HCM</span>
-                    <span class="">Số điện thoại: 02862713156 </span>
-                    <span class="">Giấy phép thiết lập MXH số 11/GP-BTTTT, Ký ngày: 08/01/2019 </span>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-    <!--  -->
-    <!-- footer code vào đây  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--  -->
+    <!--  /footer -->
 </body>
-
-<!-- script cua header -->
+ <!-- /body -->
 <script>
     function openNav() {
         document.getElementById("mySidepanel").style.width = "250px";
@@ -2007,41 +1835,5 @@
 
     document.getElementById('h02').style.display = 'none';
     </script>
-
-
-
-
-
-
-<!--  -->
-
-<!-- script cua body -->
-
-
-
-
-
-
-
-
-
-<!--  -->
-
-
-<!-- script cua footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--  -->
 
 </html>
