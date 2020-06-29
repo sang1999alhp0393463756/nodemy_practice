@@ -2137,14 +2137,21 @@ p.info-post-tan {
         max-height: 390px;
         padding: 0;
    }
+   .main-pht-top{
+       display: none;
+   }
+   .main-pht-bottom{
+       border-bottom-left-radius: 0;
+       border-bottom-right-radius: 0;
+   }
     .discuss-date-tan ,.main-pht-bottom,.main-pht-bottom-overflow,.post-hot-tan {
         padding: 0;
    }
    .next{
-        right: 15px;
+        right: 0;
    }
    .prev{
-       left: 15px;
+       left: 0;
    }
    .content-date-tan .row{
        margin: 0 !important;
