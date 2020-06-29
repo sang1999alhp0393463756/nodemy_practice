@@ -200,123 +200,115 @@ margin: 0;
 
 
 
-
-
-
-
-
-
-
-
-/*  */
 /* body */
 
-div .inset-shadow{
+
+
+/* div, p, a{
+    border: 1px solid black;
+} */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(sansation_light.woff);
+}
+
+.bodyPageTinhTe {
+    background-color: #f2f3f5;
+}
+
+div .inset-shadow {
     width: 100%;
     height: 100%;
     background-color: #ffffff;
     /* -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75); */
-    box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
 }
-.block2 span:hover {
-    color: red;
-    cursor: pointer;
-}
-.block2 .thongtinmemberpost span{
+
+.block2 .thongtinmemberpost span {
     font-size: 15px;
 }
-.taiAppTinhte .inset-shadow , .listCongDong .inset-shadow{
+
+.taiAppTinhte .inset-shadow,
+.listCongDong .inset-shadow {
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
-.questionandnews .inset-shadow{
+
+.questionandnews .inset-shadow {
     border-radius: 25px;
 }
-div .ias{
+
+.questionandnews .contentQuestion .contentradius .contentchau .col-10 {
+    background-color: rgb(239, 241, 243);
+}
+
+div .ias {
     border: 0px;
 }
+
+
 /* block1 quảng cáo */
-.block1 .quangcao{
+
+.block1 .quangcao {
     height: 120px;
     margin: 0 auto;
     position: relative;
 }
-.block1 .quangcao .img{
+
+.block1 .quangcao .img {
     position: absolute;
     height: 80%;
     width: 60%;
     background-image: url("../img/quangcaoTinhTe.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; 
-    left: 50%; 
+    background-size: cover;
+    left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
 }
 
-.block2 .col-6 .anhSanpham1{
-    height: 500px;
-    background-image: url("../img/Tinhte2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    border-radius: 15px;
-}
-.block2 .col-6 .contentSanpham1{
-    height: 150px;
-    font-size: 30px;
-}
-.block2 .col-6 .anhSanpham2{
-    height: 500px;
-    background-image: url("../img/Tinhte4.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    border-radius: 15px;
-}
-.block2 .col-6 .contentSanpham2{
-    height: 150px;
-    font-size: 30px;
-}
 /* .block2 .col-6{
     height: 650px;
     background-color: rgb(25, 36, 51);
 } */
 
-
-
-.block2 .androidContent .androidAvatar{
+.block2 .androidContent .androidAvatar {
     background-image: url("../img/androidTinhTe.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; 
-    border-radius: 12px;
-}
-.block2 .androidContent .vsmartAvatar{
-    background-image: url("../img/VmartTinhTe.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    border-radius: 12px;
-}
-.block2 .androidContent .smarthomeAvatar{
-    background-image: url("../img/smartHomeTinhTe.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    border-radius: 12px;
-}
-.block2 .androidContent .macbookAvatar{
-    background-image: url("../img/MacbookTinhTe.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     border-radius: 12px;
 }
 
-.block2 .ias .iconAndseeFeed{
+.block2 .androidContent .vsmartAvatar {
+    background-image: url("../img/VmartTinhTe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.block2 .androidContent .smarthomeAvatar {
+    background-image: url("../img/smartHomeTinhTe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.block2 .androidContent .macbookAvatar {
+    background-image: url("../img/MacbookTinhTe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.block2 .ias .iconAndseeFeed {
     position: absolute;
     height: 80%;
     width: 97%;
@@ -325,41 +317,82 @@ div .ias{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-.block2 .ias .iconAndseeFeed .icon{
+
+.block2 .ias .iconAndseeFeed .icon {
     height: 64%;
-    border-bottom: 1px solid rgb(111, 127, 148);;
+    border-bottom: 1px solid rgb(111, 127, 148);
+    ;
 }
 
-.block2 .ias .iconAndseeFeed .seeFeed{
+.block2 .ias .iconAndseeFeed .seeFeed {
     height: 39%;
 }
-.block2 .ias .iconAndseeFeed .seeFeed .feed{
+
+.block2 .ias .iconAndseeFeed .seeFeed .feed {
     height: 90%;
     width: 80%;
 }
 
+.block2 .thongkeAnhEmtichcuc .contentThongke {
+    height: 15%;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
 
-.block2 .ias .iconAndseeFeed .divchuaicon .span2{
+.block2 .thongkeAnhEmtichcuc .contentThongke:hover h5 {
+    color: hsla(188, 100%, 42%, 1)!important;
+}
+
+.block2 .ias .iconAndseeFeed .divchuaicon .span2 {
     width: 20%;
 }
-.block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s{
+
+.block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s {
     height: 60%;
 }
-.block2 .ias .iconAndseeFeed .divchuaicon .span2 .texticon{
+
+.block2 .ias .iconAndseeFeed .divchuaicon .span2 .texticon {
     height: 40%;
 }
-.block2 .has{
+
+.block2 .has {
     min-height: 300px;
-}
-.block2 .hashtagandseemore{
-    height: 100px;
-}
-.block2 .scroll{
-    min-height: 300px;
-    -webkit-overflow-scrolling: touch;
 }
 
-.block2 .scroll .scrollimg .avatarNick{
+.block2 .hashtagandseemore {
+    height: 100px;
+}
+
+.block2 .hashtagandseemore .divchuahas {
+    height: 80%;
+}
+
+.block2 .hashtagandseemore .divchuahas span {
+    padding-left: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.block2 .hashtagandseemore .divchuahas a {
+    margin-left: 12px;
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: rgb(242, 85, 41);
+}
+
+.block2 .scroll {
+    min-height: 300px;
+    -webkit-overflow-scrolling: touch;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.block2 .scroll .scrollimg .avatarNick {
     position: relative;
     height: 100%;
     width: 100%;
@@ -367,9 +400,48 @@ div .ias{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
-.block2 .scroll .scrollimg .avatarNick .avatarNickcon{
+
+.block2 .scroll .scrollimg .loadMore {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 47, 61);
+    border-radius: 10px;
+}
+
+.block2 .scroll .scrollimg .loadMore .loadMoresub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 40%;
+    width: 80%;
+}
+
+.block2 .scroll .scrollimg .loadMore .loadMoresub .icon {
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 255, 255);
+}
+
+.block2 .scroll .scrollimg .loadMore .loadMoresub .icon i {
+    font-size: 30px;
+}
+
+.block2 .scroll .scrollimg .loadMore .loadMoresub .icon .text {
+    height: 80%;
+    width: 100%;
+    word-wrap: break-word !important;
+}
+
+.block2 .scroll .scrollimg .loadMore .loadMoresub .icon .text p {
+    width: 80%;
+    font-size: 15px;
+}
+
+.block2 .scroll .scrollimg .avatarNick .avatarNickcon {
     height: 85%;
     width: 80%;
     position: absolute;
@@ -377,7 +449,8 @@ div .ias{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-.block2 .scroll .scrollimg .avatarNick .avatarNickcon .avatarPersonal{
+
+.block2 .scroll .scrollimg .avatarNick .avatarNickcon .avatarPersonal {
     height: 50px;
     width: 50px;
     border-radius: 25px;
@@ -387,50 +460,92 @@ div .ias{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.block2 .scroll .scrollimg .avatarNick .avatarNickcon .textPersonal{
+
+.block2 .scroll .scrollimg .avatarNick .avatarNickcon .textPersonal {
     width: 100%;
     height: 10%;
     position: absolute;
     top: 100%;
-    transform:translateY(-100%);
+    transform: translateY(-100%);
+    font-size: 13px;
     font-weight: 700;
 }
-.block2 .taiAppTinhte .linkgoogleandappstore .linkgoogle{
+
+.block2 .taiAppTinhte .linkgoogleandappstore .linkgoogle {
     background-image: url("../img/googleTinhTe.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
-.block2 .taiAppTinhte .linkgoogleandappstore .linkappstore{
+
+.block2 .taiAppTinhte .linkgoogleandappstore .linkappstore {
     background-image: url("../img/appStoreTinhTe.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
-.block2 .taiAppTinhte, .thongkeAnhEmtichcuc {
-    border-top: 10px solid black;
+
+.block2 .taiAppTinhte,
+.thongkeAnhEmtichcuc {
+    border-top: 5px solid black;
 }
-.block2 .thongkeAnhEmtichcuc{
-    border-top: 10px solid black;
-    border-bottom: 10px solid black;
+
+.block2 .thongkeAnhEmtichcuc {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
-.block2 .taiAppTinhte .textPtaiappTinhTe{
-    border-bottom: 1px solid white ;
+
+.block2 .taiAppTinhte .textPtaiappTinhTe {
+    border-bottom: 1px solid #f2f3f5;
 }
-.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2{
+
+.block2 .taiAppTinhte {
+    height: 450px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 {
     height: 20%;
-    border-top: 2px solid white;
+    border-top: 2px solid #f2f3f5;
 }
-.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip, .contentName{
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip .col-3 {
+    background-image: linear-gradient(45deg, hsla(188, 100%, 42%, 1), aqua);
+    border-radius: 8px;
+}
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip,
+.contentName {
     height: 50%;
 }
-.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip, .contentName .memberpost{
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentName .chipboy {
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentName:hover .chipboy {
+    color: hsla(188, 100%, 42%, 1);
+}
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentName .memberpost {
+    font-size: 13px;
+}
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .content .contentVip,
+.contentName .memberpost {
     float: right;
 }
-.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .avatar{
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .avatar {
     position: relative;
 }
-.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .avatar .avatarborder{
+
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc .listShow .span2 .avatar .avatarborder {
     border-radius: 25px;
     position: absolute;
     height: 50px;
@@ -442,221 +557,355 @@ div .ias{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
-.block2 .scroll .scrollingconmain{
+.block2 .scroll .scrollingconmain {
     position: relative;
-    background-image: linear-gradient(45deg, rgb(245, 78, 162), rgb(255, 118, 118));;
-    border-radius: 20px;
+    background-image: linear-gradient(45deg, rgb(245, 78, 162), rgb(255, 118, 118));
+    border-radius: 10px;
 }
-.block2 .sanphamCongdong .scrollingconmain{
+
+.block2 .sanphamCongdong .scrollingconmain {
     height: 500px;
 }
-.block2 .scrollingconmain .personmore .iconplus{
+
+.block2 .scrollingconmain .personmore .iconplus {
     height: 26px;
     width: 26px;
     border-radius: 13px;
-    background-color: hsla(180,100%,55%,1);
+    background-color: hsla(180, 100%, 55%, 1);
 }
-.block2 .scrollingconmain .personmore .iconpluscon{
+
+.block2 .scrollingconmain .personmore .iconpluscon {
     border-radius: 10px;
     height: 26px;
     width: 26px;
 }
-.block2 .scrollingconmain .personmore .iconplus i{
+
+.block2 .scrollingconmain .personmore .iconplus i {
     font-size: 20px;
 }
 
-.block2 .scrollingconmain .avataricontext{
+.block2 .question .title1,
+.news .title1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.block2 .contentchau .col-10 p {
+    font-size: 15px;
+}
+
+.block2 .contentchau .col-10 .col-12 .col-6 {
+    color: hsla(0, 0%, 67%, 1);
+}
+
+.block2 .contentQuestion {
+    cursor: pointer;
+}
+
+.block2 .contentQuestion:hover h5 {
+    color: hsla(188, 100%, 42%, 1);
+}
+
+.block2 .scrollingconmain .avataricontext {
     position: absolute;
-    left: 50%; 
+    left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
 
-.block2 .scrollingconmain .personmore{  
+.block2 .scrollingconmain .personmore {
     background-image: url("../img/avatarTinhTe.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: hsla(188,100%,42%,1);
+    background-color: hsla(188, 100%, 42%, 1);
     border-radius: 50px;
     height: 100px;
     width: 100px;
-    border: 2px solid hsla(180,100%,55%,1);
+    border: 2px solid hsla(180, 100%, 55%, 1);
 }
-.block2{
+
+.block2 {
     min-height: 1130px;
 }
-.block2 .qal{
+
+.block2 .qal {
     min-height: 2000px;
 }
-.block2 .listscroll{
+
+.block2 .listscroll {
     min-height: 200px;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
 
-.scrollimg .scrollingconmain{
-    border-top:2px solid black;
-    border-bottom:2px solid black;
-    margin-top:2px
+.block2 .listscroll::-webkit-scrollbar {
+    width: 12px;
 }
-.block2 .listscroll .scrollimg{
+
+.block2 .listscroll::-webkit-scrollbar-track {
+    background: wheat;
+}
+
+.block2 .listscroll::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, wheat, black);
+    border-radius: 20px;
+    border: 4px solid wheat;
+}
+
+.block2 .listscroll .scrollimg {
     margin: -1px;
     margin-right: 10px;
     display: inline-block;
     height: 100%;
     width: 150px;
     border-radius: 20px;
+    cursor: pointer;
+    position: relative;
     /* background-color: aqua; */
 }
+
+
 /* .block2 .quangcaoandList{
     min-height: 2000px;
 } */
-.block2 .quangcaoandList .quangcao{
+
+.block2 .quangcaoandList .quangcao {
     height: 300px;
 }
-.block2 .quangcaoandList .quangcao .contentquangcao{
+
+.block2 .quangcaoandList .quangcao .contentquangcao {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.block2 .quangcaoandList .quangcao .contentquangcao .commercial {
+    background-image: url("../img/quangcaoTinhTeMain.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block2 .quangcaoandList .khoangtrong {
+    height: 30px;
+}
+
+.block2 .quangcaoandList .listCongDong {
+    min-height: 500px;
+}
+
+.block2 .contentQuestion {
+    height: 240px;
+}
+
+.block2 .contentradius {
     border-radius: 30px;
 }
 
-.block2 .quangcaoandList .quangcao .contentquangcao .commercial{
-    background-image: url("../img/quangcaoTinhTe2.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-.block2 .quangcaoandList .khoangtrong{
+.block2 .news p {
     height: 30px;
 }
-.block2 .quangcaoandList .listCongDong{
-    min-height: 500px;
-}
-.block2 .contentQuestion{
-    height: 240px;
-}
-.block2 .contentradius{
-    border-radius: 30px;
-}
-.block2 .news p{
-    height: 30px;
-}
-.block2 .contentNew{
+
+.block2 .contentNew {
     min-height: 2000px;
     border-radius: 30px;
 }
-.block2 .contentCongdong{
-    height: 70px;
+
+.block2 .contentNew .new {
+    height: 180px;
+    cursor: pointer;
 }
-.block2 .sanphamCongdong{
+
+.block2 .contentNew .new:hover .contentNew- .contentNew1-- p {
+    color: hsla(188, 100%, 42%, 1);
+}
+
+.block2 .contentNew .new .avatarNew {
+    height: 90%;
+    width: 40%;
+    background-image: url("../img/newTinhTe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.block2 .contentNew .new .contentNew- {
+    height: 90%;
+    width: 60%;
+}
+
+.block2 .contentNew .new .contentNew- .contentNew1-- {
+    height: 25%;
+}
+
+.block2 .contentNew .new .contentNew- .contentNew2-- {
+    height: 55%;
+}
+
+.block2 .contentNew .new .contentNew- .contentNew3-- {
+    height: 20%;
+}
+
+.block2 .contentNew .new .contentNew- .contentNew3-- .avatarContentNew3-- {
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    background-image: url("../img/AnhThePhong.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block2 .contentCongdong {
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
+    border-top: 5px solid black;
+    cursor: pointer;
+}
+
+.block2 .contentCongdong:hover h4 {
+    color: hsla(188, 100%, 42%, 1);
+}
+
+.block2 .sanphamCongdong {
     height: 550px;
 }
-.block2 .sanphamCDcon{
+
+.block2 .sanphamCDcon {
+    border-top: #f2f3f5;
     height: 450px;
 }
-.block2 .buttonSeemore{
+
+.block2 .buttonSeemore {
     height: 60px;
     width: 100%;
 }
-.block2  .seemore button{
+
+.block2 .seemore button {
     font-size: 15px;
     background-color: red;
     color: white;
 }
 
-.block2 .buttonSeemore .daddya a{
+.block2 .buttonSeemore .daddya a {
     position: absolute;
-    text-align: center;
-    font-size: 30px;
+    font-size: 15px;
     background-color: black;
     border-radius: 5px;
-    height: 60px;
-    width: 200px;
+    height: 40px;
+    width: 150px;
+    font-weight: 700;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    text-decoration: none;
 }
 
-.block2 .contentchau{
+.block2 .contentchau {
     height: 130px;
 }
-.block2 .contentchau .col-10{
+
+.block2 .contentchau .col-10 {
     border-radius: 20px;
 }
-.block2 .contentchau .col-10 .title{
+
+.block2 .contentchau .col-10 .title {
     height: 30%;
 }
-.block2 .contentchau .col-10 .content{
+
+.block2 .contentchau .col-10 .content {
     height: 70%;
 }
 
-.block2 .contentchau .avatar{
+.block2 a {
+    text-decoration: none;
+}
+
+.block2 .contentchau .avatar {
     height: 60px;
     width: 60px;
     border-radius: 30px;
     background-image: url("../img/avatarTinhTe.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-color: rgb(46, 6, 11);
     border-color: springgreen;
 }
 
-.block2 .textAtaiappTinhTe{
-    font-size: 25px;
+.block2 .textAtaiappTinhTe {
+    cursor: pointer;
+    font-weight: 700;
 }
-.block2 .textPtaiappTinhTe{
+
+.block2 .textAtaiappTinhTe:hover h5 {
+    color: hsla(188, 100%, 42%, 1);
+}
+
+.block2 .textPtaiappTinhTe {
     font-size: 20px;
 }
-.block2 .taiAppTinhte .imgquangcao{
+
+.block2 .taiAppTinhte .imgquangcao {
     height: 200px;
+    cursor: pointer;
 }
-.block2 .linkgoogleandappstore{
-    height: 80px;
-    background-color: whitesmoke;
-    border-bottom-right-radius: 25px ;
-    border-bottom-left-radius: 25px ;
+
+.block2 .linkgoogleandappstore {
+    height: 25%;
+    background-color: rgb(201, 198, 198);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-.block2 .linkgoogle{
+
+.block2 .linkgoogle {
     width: 150px;
     height: 50px;
 }
-.block2 .linkappstore{
+
+.block2 .linkappstore {
     width: 150px;
     height: 50px;
 }
+
 .block2 .imgquangcao {
     background-image: url("../img/taiAppTinhTe.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
-.block2 .thongkeAnhEmtichcuc a{
+
+.block2 .thongkeAnhEmtichcuc a {
     font-size: 25px;
 }
-@media screen and (min-width: 992px){
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain{
+
+@media screen and (min-width: 992px) {
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain {
         width: 35%;
         height: 80%;
-        background-color: aqua;
+        background-image: linear-gradient(45deg, hsla(188, 100%, 42%, 1), aqua);
         border-radius: 5px;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar {
         width: 30%;
         height: 100%;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .textfeedAvatar{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .textfeedAvatar {
         width: 100%;
         height: 100%;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .textfeedAvatar .textFeed{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .textfeedAvatar .textFeed {
         height: 90%;
         width: 100%;
         font-size: 17px;
         font-weight: 700;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar .anhFeedAvatar{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar .anhFeedAvatar {
         width: 50%;
         height: 60%;
         background-image: url("../img/FeedToCut.jpg");
@@ -664,21 +913,25 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .thongkeAnhEmtichcuc{
+    .block2 .thongkeAnhEmtichcuc {
         height: 500px;
     }
-    .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc{
-        height: 350px;
+    .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc {
+        height: 400px;
     }
-    .block2 .androidContent{
+    .block2 .androidContent {
+        cursor: pointer;
         height: 100px;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon{
+    .block2 .androidContent:hover span {
+        color: hsla(188, 100%, 42%, 1);
+    }
+    .block2 .ias .iconAndseeFeed .divchuaicon {
         height: 100%;
         width: 40%;
         margin: 0 auto;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5 {
         height: 60px;
         width: 60px;
         margin: 0 auto;
@@ -687,7 +940,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1 {
         height: 60px;
         width: 60px;
         margin: 0 auto;
@@ -696,7 +949,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2 {
         height: 60px;
         width: 60px;
         margin: 0 auto;
@@ -705,7 +958,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3 {
         height: 60px;
         width: 60px;
         margin: 0 auto;
@@ -714,7 +967,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4 {
         height: 60px;
         width: 60px;
         margin: 0 auto;
@@ -724,28 +977,57 @@ div .ias{
         background-size: cover;
     }
 }
-@media screen and (max-width: 992px){
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain{
+
+@media screen and (max-width: 992px) {
+    .block2 .sanphamCongdong .scrollimg::-webkit-scrollbar {
+        width: 12px;
+    }
+    .thongkeAnhEmtichcuc .scrollListAnhemtichcuc::-webkit-scrollbar {
+        width: 12px;
+    }
+    .block2 .sanphamCongdong .scrollimg::-webkit-scrollbar-track {
+        background: white;
+    }
+    .thongkeAnhEmtichcuc .scrollListAnhemtichcuc::-webkit-scrollbar-track {
+        background: white;
+    }
+    .block2 .sanphamCongdong .scrollimg::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(45deg, white, black);
+        border-radius: 20px;
+        border: 4px solid white;
+    }
+    .thongkeAnhEmtichcuc .scrollListAnhemtichcuc::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(45deg, white, black);
+        border-radius: 20px;
+        border: 4px solid white;
+    }
+    .block2 .quangcaoandList .quangcao {
+        height: 500px;
+    }
+    .block2 .quangcaoandList .quangcao .contentquangcao {
+        border-radius: 10px;
+    }
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain {
         width: 75%;
         height: 80%;
         background-color: aqua;
         border-radius: 5px;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar {
         width: 30%;
         height: 100%;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .textfeedAvatar{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .textfeedAvatar {
         width: 70%;
         height: 100%;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .textfeedAvatar .textFeed{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .textfeedAvatar .textFeed {
         height: 60%;
         width: 100%;
         font-size: 12px;
         font-weight: 700;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar .anhFeedAvatar{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain .feedAvatar .anhFeedAvatar {
         width: 50%;
         height: 60%;
         background-image: url("../img/FeedToCut.jpg");
@@ -753,77 +1035,91 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore .iconplus{
-        height: 26px;
-        width: 50px;
-        border-radius: 13px;
-        background-color: hsla(180,100%,55%,1);
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc {
+        height: 85%!important;
     }
-    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore .iconpluscon{
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .avataricontext .texttaoFactmoi .text {
+        width: 80px;
+        font-weight: 700;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore .iconplus {
+        height: 25px;
+        width: 35px;
+        border-radius: 13px;
+        background-image: linear-gradient(45deg, hsla(188, 100%, 42%, 1), aqua);
+    }
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore .iconpluscon {
         border-radius: 10px;
         /* height: 26px;
         width: 26px; */
     }
-    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore .iconplus i{
-        font-size: 13px;
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore .iconplus i {
+        font-size: 8px;
     }
-    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc{
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc {
         height: 100%;
         overflow-x: scroll;
         overflow-y: hidden;
         white-space: nowrap;
     }
-    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .avataricontext{
-        height: 100%;
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .avataricontext {
+        height: 60%;
     }
-    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore{
+    .block2 .thongkeAnhEmtichcuc .scrollListAnhemtichcuc .personmore {
         background-image: url("../img/AnhThePhong.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: hsla(188,100%,42%,1);
+        background-color: hsla(188, 100%, 42%, 1);
         border-radius: 50px;
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
     }
-    .block2 .thongkeAnhEmtichcuc{
+    .block2 .thongkeAnhEmtichcuc {
         height: 300px;
     }
-    .block2 .thongkeAnhEmtichcuc .contentThongke{
+    .block2 .thongkeAnhEmtichcuc .contentThongke {
         height: 30%;
+        font-size: 30px;
+        font-weight: 700;
+        cursor: pointer;
     }
-    .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc{
+    .block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc {
         height: 60%;
         border-top: 2px solid rgb(230, 230, 230);
     }
-    .block2 .buttonSeemore .daddya a{
+    .block2 .buttonSeemore .daddya a {
         width: 100%;
+        color: black!important;
         background-color: rgb(230, 230, 230);
     }
-    .block2 .androidContent{
+    .block2 .androidContent {
         height: 100%;
     }
-    .block2 .sanphamCongdong .scrollimg{
+    .block2 .sanphamCongdong .scrollimg {
         overflow-x: scroll;
         overflow-y: hidden;
         white-space: nowrap;
     }
-    .block2 .androidContent .androidSm{
+    .block2 .androidContent .androidSm {
         height: 100%;
     }
-    .block2 .androidContent .androidSm .general{
+    .block2 .androidContent .androidSm .general {
         height: 50%;
     }
-    .block2 .androidContent .androidSm .general .androidAvatar{
+    .block2 .androidContent .androidSm .general .androidAvatar {
         height: 60%;
         width: 230px;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon{
+    .block2 .ias .iconAndseeFeed .divchuaicon {
         height: 100%;
         width: 60%;
         margin: 0 auto;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5 {
         height: 40px;
         width: 40px;
         margin: 0 auto;
@@ -832,7 +1128,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1 {
         height: 40px;
         width: 40px;
         margin: 0 auto;
@@ -841,7 +1137,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2 {
         height: 40px;
         width: 40px;
         margin: 0 auto;
@@ -850,7 +1146,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3 {
         height: 40px;
         width: 40px;
         margin: 0 auto;
@@ -859,7 +1155,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4 {
         height: 40px;
         width: 40px;
         margin: 0 auto;
@@ -869,38 +1165,39 @@ div .ias{
         background-size: cover;
     }
 }
-@media screen and (max-width: 320px){
-    .block2 .ias .texticon{
+
+@media screen and (max-width: 320px) {
+    .block2 .ias .texticon {
         display: none;
     }
-    .block2 .ias{
+    .block2 .ias {
         height: 150px!important;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon{
+    .block2 .ias .iconAndseeFeed .divchuaicon {
         height: 100%;
         width: 100%;
         margin: 0 auto;
     }
-    .block2 .ias .iconAndseeFeed .icon{
+    .block2 .ias .iconAndseeFeed .icon {
         height: 40%;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed{
+    .block2 .ias .iconAndseeFeed .seeFeed {
         height: 60%;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed  .feed{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed {
         width: 100%!important;
         position: relative;
     }
-    .block2 .ias .iconAndseeFeed .seeFeed  .feed .feedMain{
+    .block2 .ias .iconAndseeFeed .seeFeed .feed .feedMain {
         position: absolute;
         width: 85%!important;
         height: 70%!important;
-        top:50%;
-        left:50%;
+        top: 50%;
+        left: 50%;
         transform: translateX(-50%) translateY(-50%);
         border-radius: 5px;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5 {
         height: 40px!important;
         width: 40px!important;
         margin: 0 auto;
@@ -909,7 +1206,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1 {
         height: 40px!important;
         width: 40px!important;
         margin: 0 auto;
@@ -918,7 +1215,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2 {
         height: 40px!important;
         width: 40px!important;
         margin: 0 auto;
@@ -927,7 +1224,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3 {
         height: 40px!important;
         width: 40px!important;
         margin: 0 auto;
@@ -936,7 +1233,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4 {
         height: 40px!important;
         width: 40px!important;
         margin: 0 auto;
@@ -946,13 +1243,42 @@ div .ias{
         background-size: cover;
     }
 }
-@media screen and (max-width: 414px){
-    .block2 .ias .iconAndseeFeed .divchuaicon{
+
+@media screen and (max-width: 414px) {
+    .block2 .listCongDong {
+        height: 150px!important;
+    }
+    .block2 .sanphamCongdong {
+        height: 60%;
+    }
+    .block2 .sanphamCongdong .scrollimg {
+        height: 100%;
+        width: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain {
+        height: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent .androidSm .android1 {
+        width: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent {
+        height: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent .androidSm .android2 {
+        width: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent .androidSm .android1 .androidAvatar {
+        width: 100%;
+    }
+    .block2 .sanphamCongdong .scrollimg .scrollingconmain .androidContent .androidSm .android2 .androidAvatar {
+        width: 100%;
+    }
+    .block2 .ias .iconAndseeFeed .divchuaicon {
         height: 100%;
         width: 100%;
         margin: 0 auto;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons5 {
         height: 50px;
         width: 50px;
         margin: 0 auto;
@@ -961,7 +1287,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons1 {
         height: 50px;
         width: 50px;
         margin: 0 auto;
@@ -970,7 +1296,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons2 {
         height: 50px;
         width: 50px;
         margin: 0 auto;
@@ -979,7 +1305,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons3 {
         height: 50px;
         width: 50px;
         margin: 0 auto;
@@ -988,7 +1314,7 @@ div .ias{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4{
+    .block2 .ias .iconAndseeFeed .divchuaicon .span2 .icon5s .icons4 {
         height: 50px;
         width: 50px;
         margin: 0 auto;
@@ -998,8 +1324,9 @@ div .ias{
         background-size: cover;
     }
 }
-@media screen and (min-width: 700px){
-    .block2 .ias{
+
+@media screen and (min-width: 768px) {
+    .block2 .ias {
         position: relative;
         height: 200px;
         background-image: url("../img/backGroundTinhTe.png");
@@ -1009,120 +1336,181 @@ div .ias{
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
     }
-    .block2 .col-6 .anhSanpham1{
+    .block2 .col-6 .anhSanpham1 {
         height: 75%;
         width: 100%;
         background-image: url("../img/Tinhte2.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
     }
-    .block2 .col-6 .contentSanpham1 .contenSanpham1Con{
+    .block2 .col-6 .contentSanpham1 .contenSanpham1Con {
         height: 80%;
         width: 95%;
     }
-    .block2 .col-6 .contentSanpham1 .contenSanpham1Con .thongtinmemberpost{
+    .block2 .col-6 .contentSanpham1 .contenSanpham1Con .thongtinmemberpost {
         height: 20%;
     }
-    .block2 .col-6 .contentSanpham1{
+    .block2 .col-6 .contentSanpham1,
+    .col-6 .contentSanpham2 {
         height: 25%;
         width: 100%;
         font-size: 20px;
         background-color: black;
     }
-    .block2 .col-6 .anhSanpham2{
+    .block2 .col-6,
+    .col-4 {
+        cursor: pointer;
+    }
+    .block2 .col-6:hover .col-12 .contentGeneral1 {
+        color: aqua!important;
+    }
+    .block2 .col-4:hover .chung .contentGeneral2 {
+        color: aqua!important;
+    }
+    .block2 .daddya a {
+        cursor: pointer;
+    }
+    .block2 .daddya a:hover {
+        color: aqua!important;
+    }
+    .block2 .col-6 .anhSanpham2 {
         height: 75%;
         width: 100%;
         background-image: url("../img/Tinhte4.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
     }
-    .block2 .col-6 .contentSanpham2{
+    .block2 .col-6 .contentSanpham2 {
         height: 25%;
         width: 100%;
         font-size: 20px;
         background-color: black;
     }
-    .block2 .sanpham .col-4{
+    .block2 .sanpham .col-4 {
         height: 100%;
         background-color: rgb(25, 36, 51);
     }
-    .block2 .col-4 .anhSanpham1{
+    .block2 .col-4 .anhSanpham1 {
         height: 60%;
         width: 100%;
         background-image: url("../img/Tinhte1.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
         border-radius: 15px;
-    } 
-    .block2 .col-4 .contentSanpham1{
+    }
+    .block2 .col-4 .contentSanpham1 {
         height: 40%;
         width: 100%;
         font-size: 15px;
     }
-    .block2 .col-4 .anhSanpham2{
+    .block2 .col-4 .anhSanpham2 {
         height: 60%;
         width: 100%;
         background-image: url("../img/Tinhte3.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
         border-radius: 15px;
-    } 
-    .block2 .col-4 .contentSanpham2{
+    }
+    .block2 .col-4 .contentSanpham2 {
         height: 40%;
         width: 100%;
         font-size: 15px;
     }
-    .block2 .col-4 .anhSanpham3{
+    .block2 .col-4 .anhSanpham3 {
         height: 60%;
         width: 100%;
-        background-image: url("../img/Tinhte5.jpg");
+        background-image: url("../img/Tinhte2.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
         border-radius: 15px;
-    } 
-    .block2 .col-4 .contentSanpham3{
+    }
+    .block2 .col-4 .contentSanpham3 {
         height: 40%;
         width: 100%;
         font-size: 15px;
     }
-    
-    .block2 .sanphamto1{
+    .block2 .sanphamto1 {
         height: 400px;
     }
-    .block2 .sanphamnho1{
+    .block2 .sanphamnho1 {
         height: 350px;
     }
-    .block2 .sanphamto1 .sanphamto{
+    .block2 .sanphamto1 .sanphamto {
         height: 100%;
     }
-    .block2 .sanpham{
+    .block2 .sanpham {
         height: 100%;
     }
-    .block2 .sanphamto1 .col-6{
+    .block2 .sanphamto1 .col-6 {
         height: 100%;
         background-color: rgb(25, 36, 51);
         padding-top: 5px;
     }
-    .block2 .sanphamto1{
+    .block2 .sanphamto1 {
         display: block;
     }
-    .block2 .sanphamnho1{
+    .block2 .sanphamnho1 {
         display: block;
     }
-    .block2 .sanphamto2{
+    .block2 .sanphamto2 {
         display: none;
     }
-    .block2 .sanphamnho2{
+    .block2 .sanphamnho2 {
         display: none;
     }
 }
-@media screen and (max-width: 700px){
-    .block2 .ias{
+
+@media screen and (max-width: 768px) {
+    .block2 .contentNew .new:hover .contentNew1md p {
+        color: hsla(188, 100%, 42%, 1);
+    }
+    .block2 .d-md-none {
+        height: 200px!important;
+        width: 100%!important;
+    }
+    .block2 .d-md-none .contentNew1md {
+        height: 30%;
+        width: 100%!important;
+    }
+    .block2 .d-md-none .contentNew2md {
+        height: 70%!important;
+        width: 100%!important;
+    }
+    .block2 .d-md-none .contentNew2md .avatarNew {
+        height: 100%!important;
+        width: 100%!important;
+    }
+    .block2 .d-md-none .contentNew2md .avatarNew1- {
+        height: 100%!important;
+        width: 20%!important;
+    }
+    .block2 .d-md-none .contentNew2md .avatarNew1- .contentNew2-- {
+        height: 100%!important;
+    }
+    .block2 .d-md-none .contentNew2md .avatarNew1- .contentNew3-- {
+        height: 100%!important;
+    }
+    .block2 .daddya a {
+        cursor: pointer;
+    }
+    .block2 .daddya a:hover {
+        color: hsla(188, 100%, 42%, 1)!important;
+    }
+    .block2 .col-12 {
+        cursor: pointer;
+    }
+    .block2 .col-12:hover .col-12 .contentGeneral1 {
+        color: aqua!important;
+    }
+    .block2 .col-12:hover .col-7 .contentGeneral2 {
+        color: aqua!important;
+    }
+    .block2 .ias {
         position: relative;
         height: 200px;
         background-image: url("../img/backGroundTinhTe.png");
@@ -1132,91 +1520,90 @@ div .ias{
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
     }
-    .block2 .contentGeneral1{
+    .block2 .contentGeneral1 {
         font-size: 20px;
         font-weight: 700;
     }
-    .block2 .contentGeneral2{
+    .block2 .contentGeneral2 {
         font-size: 15px;
         font-weight: 700;
     }
-    .sanphamnho1 .contentSanpham1 .contentSanpham1con{
+    .sanphamnho1 .contentSanpham1 .contentSanpham1con {
         height: 60%;
     }
-
-    .block2 .sanphamnho2 .col-12{
+    .block2 .sanphamnho2 .col-12 {
         background-color: rgb(25, 36, 51);
     }
-    .block2 .sanphamnho2 .col-12 .anhSanpham1{
+    .block2 .sanphamnho2 .col-12 .anhSanpham1 {
         background-image: url("../img/Tinhte3.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
         border-radius: 15px;
         height: 100%;
     }
-    .block2 .sanphamnho2 .col-12 .anhSanpham2{
+    .block2 .sanphamnho2 .col-12 .anhSanpham2 {
         background-image: url("../img/Tinhte2.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
         border-radius: 15px;
         height: 100%;
     }
-    .block2 .sanphamnho2 .col-12 .anhSanpham3{
-        background-image: url("../img/Tinhte1.jpg");
+    .block2 .sanphamnho2 .col-12 .anhSanpham3 {
+        background-image: url("../img/Tinhte2.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
         border-radius: 15px;
         height: 100%;
     }
-    .block2 .sanphamnho2 .col-12 .anhSanpham4{
+    .block2 .sanphamnho2 .col-12 .anhSanpham4 {
         background-image: url("../img/Tinhte4.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
         border-radius: 15px;
         height: 100%;
     }
-    .block2 .sanphamnho2 .sanpham{
-        height: 400px;
+    .block2 .sanphamnho2 .sanpham {
+        height: 500px;
     }
-    .block2 .sanphamnho2 .sanpham .col-12{
+    .block2 .sanphamnho2 .sanpham .col-12 {
         height: 25%;
     }
-    .block2 .sanphamto2{
+    .block2 .sanphamto2 {
         height: 350px;
         background-color: rgb(25, 36, 51);
     }
-    .block2 .sanphamto2 .col-12 .anhSanpham1{
+    .block2 .sanphamto2 .col-12 .anhSanpham1 {
         background-image: url("../img/Tinhte2.jpg");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
         height: 70%;
         margin-top: 1px;
     }
-    .block2 .sanphamto2 .col-12 .contentSanpham1{
+    .block2 .sanphamto2 .col-12 .contentSanpham1 {
         height: 30%;
         background-color: black;
     }
-    .block2 .anhSanpham1{
+    .block2 .anhSanpham1 {
         height: 80%;
     }
-    .block2 .anhSanpham2{
+    .block2 .anhSanpham2 {
         height: 20%;
     }
-    .block2 .sanphamto1{
+    .block2 .sanphamto1 {
         display: none;
     }
-    .block2 .sanphamnho1{
+    .block2 .sanphamnho1 {
         display: none;
     }
-    .block2 .sanphamto2{
+    .block2 .sanphamto2 {
         display: block;
     }
-    .block2 .sanphamnho2{
+    .block2 .sanphamnho2 {
         display: block;
     }
 }
@@ -1383,6 +1770,7 @@ margin: 20px 0;
 
 
 
+/* phần tân code thêm */
 
 
 /*  */
@@ -1453,6 +1841,7 @@ margin: 20px 0;
 
 
 
+/* footer */
 
 
 /*  */
